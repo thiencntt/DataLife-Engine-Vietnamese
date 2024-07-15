@@ -2,6 +2,25 @@
 
 $lang_logs = array (
 
+// 17.0
+'admin_logs_action_122'		=>	"Vô hiệu hóa liên kết trong mô-đun Redirects",
+'admin_logs_action_123'		=>	"Cho phép sử dụng liên kết trong mô-đun Redirects module",
+'admin_logs_action_124'		=>	"Vô hiệu hóa liên kết trong mô-đun 'Meta Tags'",
+'admin_logs_action_125'		=>	"Cho phép sử dụng liên kết trong mô-đun 'Meta Tags' module",
+'admin_logs_action_126'		=>	"Vô hiệu hóa liên kết trong mô-đun 'Cross-references'",
+'admin_logs_action_127'		=>	"Cho phép sử dụng liên kết trong mô-đun 'Cross-references'",
+'admin_logs_action_128'		=>	"Thêm vào kho lưu trữ:",
+'admin_logs_action_129'		=>	"Chỉnh sửa kho lưu trữ:",
+'admin_logs_action_130'		=>	"Tắt kho lưu trữ ngoài",
+'admin_logs_action_131'		=>	"Bật kho lưu trữ ngoài",
+'admin_logs_action_132'		=>	"Xóa hàng loạt kho lưu trữ ngoài",
+'admin_logs_action_133'		=>	"Bật hàng loạt kho lưu trữ ngoài",
+'admin_logs_action_134'		=>	"Tắt hàng loạt kho lưu trữ ngoài",
+'admin_logs_action_135'		=>	"Thay đổi kho lưu trữ mặc định",
+'admin_logs_action_136'		=>	"Đang xóa kho lưu trữ:",
+'admin_logs_action_137'		=>	"Tự xóa tài khoản của mình",
+// 17.0
+
 // 14.0
 'admin_logs_action_120'		=>	"Bật Danh mục, ID:",
 'admin_logs_action_121'		=>	"Tắt Danh mục, ID:",

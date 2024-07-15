@@ -2,8 +2,18 @@
 
 $lang = array (
 
-'charset'			=>	"utf-8",
-'wysiwyg_language'	=>  "vi",
+'language_code'		    =>  "vi",
+'direction'		        =>  "ltr",
+
+// 17.0
+'attach_images'         => "Đính kèm hình ảnh",
+'self_delete_1'         => "Bạn có chắc chắn muốn xóa tài khoản và tất cả dữ liệu của mình khỏi trang web này không? Hành động này không thể được hoàn tác.",
+'self_delete_2'         => "Để xác nhận xóa tài khoản, bạn cần nhập mật khẩu tài khoản của mình:",
+'self_delete_3'         => "Xóa tài khoản",
+'self_delete_4'         => "Yêu cầu mật khẩu",
+'self_delete_5'         => "Tài khoản và tất cả dữ liệu của bạn đã bị xóa khỏi trang web.",
+'self_delete_6'         => "Yêu cầu xóa tài khoản của bạn đã được gửi đến ban quản trị và sẽ được xử lý bởi quản trị viên trang web.",
+// 17.0
 
 // 16.1
 'twofactor_auth_1'      => "Tắt",

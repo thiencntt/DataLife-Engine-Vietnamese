@@ -2,8 +2,65 @@
 
 $lang = array (
 
-'charset'				=>	"utf-8",
-'wysiwyg_language'		=>  "vi",
+'language_code'		    =>  "en",
+'direction'		        =>  "ltr",
+
+// 17.0
+'found_news'            =>   "(Tìm thấy: {count})",
+'all_enable'            =>   "Bật",
+'redirects_off'         =>   "Đã tắt chuyển hướng",
+'metatags_off'          =>   "Đã tắt thẻ meta",
+'links_off'             =>   "Đã tắt tham chiếu chéo cho từ này",
+'group_a_meta'		    =>	 "Cho phép quản lý Thẻ meta",
+'group_h_meta'		    =>	 "Tùy chọn này cho phép người dùng có quyền truy cập vào Bảng quản trị có thể quản lý các thẻ meta, header và description của các trang nội dung.",
+'group_a_links'		    =>	 "Cho phép quản lý tham chiếu chéo",
+'group_h_links'		    =>	 "Tùy chọn này cho phép người dùng có quyền truy cập vào Bảng quản trị có thể quản lý các tham chiếu chéo của các trang nội dung.",
+'group_a_redirects'	    =>	 "Cho phép quản lý chuyển hướng",
+'group_h_redirects'	    =>	 "Tùy chọn này cho phép người dùng có quyền truy cập vào Bảng quản trị có thể quản lý các chuyển hướng - redirect của các trang nội dung.",
+'group_a_st'		    =>	 "Cho phép người dùng lựa chọn nơi lưu trữ khi tải lên hình ảnh, tập tin",
+'group_h_st'		    =>	 "Tùy chọn này sẽ cho phép người dùng chọn vị trí lưu trữ từ những vị trí có sẵn khi tải hình ảnh và tập tin lên máy chủ.",
+'xfield_etitle'		    =>	 "Chỉnh sửa field bổ sung",
+'opt_storages'          =>	 "Kho lưu trữ",
+'opt_storagesc'         =>   "Thiết lập các tùy chọn lưu trữ khác nhau cho hình ảnh, phương tiện và các tập tin khác khi tải lên",
+'header_s_1'			=>	 "Quản lý lưu trữ",
+'header_s_2'            =>	 "Danh sách kho lưu trữ",
+'header_s_3'            =>	 "Thêm kho lưu trữ",
+'header_s_4'            =>	 "Chỉnh sửa kho lưu trữ",
+'opt_storeagehelp'		=>	 "Trong phần này, bạn có thể thêm nhiều kho lưu trữ bên ngoài khác nhau để tải lên hình ảnh, tập tin đa phương tiện và những thứ khác vào. Sau khi thêm bộ nhớ ngoài, bạn có thể chọn loại tập tin nào sẽ được tải lên bộ nhớ nào trong cài đặt bảng điều khiển. Trong cài đặt nhóm người dùng, bạn cũng có thể cho phép người dùng chọn bộ nhớ mà tập tin sẽ được tải lên ngay trước khi tải tập tin lên máy chủ.",
+'storage_name'			=>	 "Tên kho lưu trữ:",
+'storage_default'		=>	 "Mặc định",
+'storage_enabled'		=>	 "Đã bật",
+'storage_on'            =>	 "Đã bật kho lưu trữ",
+'storage_off'           =>	 "Đã tắt kho lưu trữ",
+'storage_add'           =>   "Thêm kho lưu trữ mới",
+'storage_name_d'        =>   "Nhập tên của bộ nhớ ngoài của bạn. Ví dụ: 'Máy chủ FTP của tôi'",
+'storage_error'         =>   "Bộ nhớ bạn đã chọn không có sẵn",
+'storage_error_1'       =>   "Bắt buộc nhập tên kho lưu trữ",
+'storage_setd'          =>   "Đặt làm mặc định",
+'storage_type'          =>   "Loại:",
+'mass_storage_err'		=>	 "Bạn chưa chọn kho lưu trữ để thực hiện các thao tác.",
+'storage_del'			=>	 "Bạn có chắc chắn muốn xóa kho lưu trữ:",
+'storage_upload'		=>	 "Tải lên kho lưu trữ:",
+'group_sdel'			=>	 "Quyền tự xóa tài khoản của bạn",
+'hint_sdel'             =>	 "Tùy chọn này cho phép bạn bật hoặc tắt tính năng cho phép người dùng tự xóa tài khoản và dữ liệu của mình khỏi trang web. Bạn có thể chọn một trong các tùy chọn:<br><br>1. Cấm người dùng tự xóa tài khoản<br><br>2. Cho phép người dùng tự xóa tài khoản<br><br>3. Người dùng gửi yêu cầu đến ban quản trị xóa tài khoản của họ.",
+'opt_sys_r7'			=>	 "Cấm người dùng tự xóa tài khoản",
+'opt_sys_r8'			=>	 "Cho phép người dùng tự xóa tài khoản",
+'opt_sys_r9'			=>	 "Người dùng gửi yêu cầu đến ban quản trị xóa tài khoản của họ.",
+'err_selfdel_1'			=>	 "Cấu hình nhóm người dùng này không cho phép người dùng tự xóa tài khoản. Liên hệ với ban quản trị.",
+'err_selfdel_2'			=>	 "Quản trị viên không được phép tự xóa tài khoản của mình. Chỉ quản trị viên khác mới có thể xóa tài khoản của bạn",
+'err_selfdel_3'			=>	 "Bạn đã gửi yêu cầu tới ban quản trị để xóa tài khoản của bạn. Hãy chờ quyết định của họ.",
+'selfdel_wait'          =>   "Trong phần chỉnh sửa người dùng, có những người dùng đã yêu cầu xóa tài khoản của họ khỏi trang web và đang chờ hành động của bạn. <a href=\"?mod=editusers\">MỞ phần Chỉnh sửa người dùng</a>",
+'selfdel_wait_1'        =>   "Những người dùng đã gửi yêu cầu xóa tài khoản:",
+'selfdel_wait_2'        =>   "Danh sách người dùng đã yêu cầu xóa tài khoản khỏi trang web",
+'selfdel_wait_3'        =>   "Từ chối yêu cầu xóa",
+'selfdel_wait_4'        =>   "Thông báo xóa tài khoản",
+'selfdel_wait_5'        =>   "Tài khoản {name} của bạn trên trang web {site} đã được quản trị viên xóa theo yêu cầu của bạn.",
+'selfdel_wait_6'        =>   "Yêu cầu xóa tài khoản của bạn đã bị quản trị viên từ chối. Họ đưa ra những lý do sau:",
+'selfdel_text'			=>	 "Nhập nội dung thông báo về lý do từ chối xóa tài khoản mà người dùng sẽ nhận được dưới dạng tin nhắn cá nhân",
+'opt_s_acc_1'           =>   "Quản lý người dùng",
+'opt_sys_fsearchr'		=>   "Số lượng bài viết được tìm thấy trong phần tìm kiếm nhanh",
+'opt_sys_fsearchrd'     =>   "Nhập số lượng bài viết tối đa được tìm thấy sẽ được hiển thị trong kết quả tìm kiếm nhanh",
+// 17.0
 
 // 16.1
 'opt_sys_imbhr'         =>   "Lưu bản sao lưu cơ sở dữ liệu vào bộ nhớ ngoài",
@@ -1183,8 +1240,6 @@ $lang = array (
 
 // 9.8
 'media_upload_st14'		=>	"Tải tập tin lên từ máy tính",
-'opt_sys_mhs'			=>	"Cho phép khách truy cập chia sẻ nội dung thú vị từ trang web của bạn",
-'opt_sys_mhsd'			=>	"Khi 'Bật' và khách truy cập xem trang bài viết trên trang web của bạn, họ có thể tô đen nội dung bài viết và chia sẻ liên kết đến văn bản này trên mạng xã hội hoặc trực tiếp với người dùng khác.",//English error:tirectly->directly
 'opt_sys_adr'			=>	"Người dùng ủy quyền trên tên miền và tất cả tên miền phụ",
 'opt_sys_adrd'			=>	"Nếu 'Bật', người dùng đăng nhập vào trang web sẽ có thể đăng nhập vào miền và tất cả các tên miền phụ. Ví dụ: nếu người dùng đăng nhập vào tên miền cấp hai dleviet.com, thì dữ liệu đăng nhập của họ sẽ có sẵn trên cả tên miền phụ test.dleviet.com và trên tất cả các tên miền phụ khác. Việc bật cài đặt này là giúp cho quản trị viên có thể quản lý thành viên thống nhất khi cài nhiều mã nguồn DLE trên tên miền. Nếu bạn tắt cài đặt này, dữ liệu đăng nhập người dùng sẽ chỉ áp dụng cho tên miền được cài đặt. Tắt cài đặt này nếu bạn đang tạo các trang web độc lập trên tên miền và tên miền phụ.",
 'edit_upp'				=>	"Số lượng người dùng trên mỗi trang:",
@@ -1254,7 +1309,6 @@ $lang = array (
 'media_upload'			=>	"Tải hình ảnh và tập tin lên máy chủ",
 'media_upload_url'		=>	"Liên kết đến hình ảnh:",
 'media_upload_title'	=>	"Mô tả hình ảnh:",
-'media_upload_ip1'		=>	"Chèn:",
 'media_upload_ip2'		=>	"Xem trước",
 'media_upload_ip3'		=>	"Ảnh gốc",
 'media_upload_ip4'		=>	"Liên kết tải lên",
@@ -1409,7 +1463,6 @@ $lang = array (
 'opt_sys_navi_2'		=>	"Ở phía dưới",
 'opt_sys_navi_3'		=>	"Ở phía trên",
 'opt_sys_navi_4'		=>	"Ở phía trên và dưới",
-'stat_secfault_3'		=>	"<b>Cảnh báo bảo mật!:</b><br />Máy chủ của bạn không đáp ứng các yêu cầu bảo mật tối thiểu. allow_url_include được bật trên máy chủ. Liên hệ với nhà cung cấp dịch vụ lưu trữ của bạn để tắt chỉ thị này.", // Xóa trên phiên bản DLE 14.0
 'opt_sys_phpma'			=>	"Tùy chọn bổ sung PHP mail()",
 'opt_sys_phpmad'		=>	"Bạn có thể thêm các tùy chọn bổ sung được chuyển đến PHP mail(). Ví dụ: -femail@site.ru (với tham số -f và email: email.com) đặt giá trị 'Từ' cho tất cả các thư.",
 'opt_sys_smtpm'			=>	"Địa chỉ email để đăng nhập vào máy chủ SMTP với vai trò là người gửi",
@@ -1459,7 +1512,6 @@ $lang = array (
 // 9.3
 
 // 9.2
-'stat_magic'			=>	"<b>Ghi chú:</b><br />Cài đặt lỗi thời được phát hiện trong tập tin php.ini trên máy chủ của bạn. magic_quotes_gpc feature is enabled. Cài đặt này không được khuyến nghị cho bạn nếu bạn sử dụng DataLife Engine. Liên hệ với nhà cung cấp dịch vụ lưu trữ của bạn để tắt tính năng này trong Cài đặt máy chủ.", // Xóa trên phiên bản DLE 14.0
 'stat_secfault'			=>	"<b>Cảnh báo bảo mật!:</b><br />Máy chủ của bạn không đáp ứng các yêu cầu bảo mật tối thiểu. register_globals is enabled on server. Liên hệ với nhà cung cấp dịch vụ lưu trữ của bạn để tắt chỉ thị này.",
 'stat_secfault_2'		=>	"<b>Cảnh báo bảo mật!:</b><br />Tập tin {folder} bị thiếu. Tập tin này được sử dụng để chặn các tập tin được tải lên trái phép trong thư mục này và trong tất cả các thư mục con trong đó. Bạn hãy sao chép tập tin này từ mã nguồn gốc vào thư mục của bạn.",
 'group_a_tagscloud'		=>	"Cho phép quản lý Từ khóa của Tag Cloud",
@@ -1580,12 +1632,6 @@ $lang = array (
 'mass_clear_cloud'		=>	"Xóa Tag Cloud",
 'mass_clear_cloud_1'	=>	"Bạn có chắc chắn muốn xóa Tag Cloud đã chọn",
 'mass_clear_cloud_2'	=>	"Xóa từ khóa khỏi Tag Cloud",
-'opt_sys_sim'			=>	"Chế độ xem hình ảnh gốc khi được phóng to từ hình thu nhỏ",
-'opt_sys_simd'			=>	"Chỉ định chế độ xem hình ảnh gốc khi phóng to từ một bản sao thu nhỏ của hình ảnh này",
-'outline_1'				=>	"Bo tròn các góc và đổ bóng",
-'outline_2'				=>	"Các cạnh thẳng và đổ bóng",
-'outline_3'				=>	"Chỉ đổ bóng",
-'outline_4'				=>	"Chỉ hiện khung, không có đổ bóng",
 // 8.5
 
 // 8.3
@@ -1628,8 +1674,6 @@ $lang = array (
 // 8.2
 'bb_t_t'				=>	"Xử lý văn bản Typographical",
 'stat_not_min'			=>	"<b>Cảnh báo!</b><br />Máy chủ của bạn không đáp ứng các yêu cầu tối thiểu của mã nguồn. Các thư viện không được cài đặt trên máy chủ của bạn:",
-'opt_sys_dimm'			=>	"Tự động làm tối trang web khi hiển thị hình ảnh gốc",
-'opt_sys_dimmd'			=>	"Nếu 'Bật', khi bạn phóng to hình ảnh thu nhỏ thành bản gốc, nền chung của trang web sẽ bị tối đi.",
 'opt_sys_gall'			=>	"Chế độ thư viện cho hình thu nhỏ",
 'opt_sys_galld'			=>	"Nếu 'Bật', khi xem hình ảnh gốc từ các hình thu nhỏ, thanh điều hướng sẽ được hiển thị trên hình ảnh để chuyển sang hình ảnh tiếp theo hoặc phát trình chiếu, v.v. khi hình ảnh gốc sẽ được phóng to từ hình thu nhỏ. Chế độ này chỉ được bật cho hình ảnh khi xem bài viết đầy đủ hoặc trang tĩnh.",
 'nl_info_1'				=>	"Bạn có thể sử dụng thẻ <b>{%user%}</b> trong tin nhắn của bạn sẽ được thay thế bằng thông tin đăng nhập của người nhận tin nhắn hoặc bởi tên đầy đủ của người dùng này nếu họ đã nhập trong hồ sơ. Nếu field BCC được bật để gửi thư hàng loạt trong Cài đặt thì thẻ sẽ được thay thế bằng từ:",
@@ -1897,8 +1941,6 @@ $lang = array (
 'opt_sys_nrssd'			=>	"Nhập số lượng bài viết được xuất sang Nguồn cấp tin RSS.",
 'opt_sys_trss'			=>	"Loại xuất của Nguồn cấp RSS chính",
 'opt_sys_trssd'			=>	"Chọn loại hiển thị của Nguồn cấp RSS chính khi truy cập vào: http://your website.ru/rss.xml.",
-'opt_sys_frss'			=>	"Định dạng của tập tin xuất sang Nguồn cấp tin RSS",
-'opt_sys_frssd'			=>	"Định dạng của tập tin xuất sang Nguồn cấp tin RSS. Có ba lựa chọn:<br /><br /><b>Đơn giản</b> - chỉ hiển thị văn bản bài viết thô, không có định dạng<br /><b>Đầy đủ</b> - hiển thị toàn văn bài viết, với bài viết và hình ảnh <br /><b>Tin tức Yandex</b> - hiển thị văn bản ở định dạng cần được tích hợp vào hệ thống Yandex News",
 'opt_sys_rss_type_0'	=>	"Tất cả bài viết",
 'opt_sys_rss_type_1'	=>	"Chỉ những bài viết được đăng trên trang chủ",
 'opt_sys_rss_type_2'	=>	"Đơn giản",
@@ -2024,10 +2066,6 @@ $lang = array (
 'mass_edit_fix_fr1'		=>	"Bạn có chắc chắn muốn ghim bài viết đã chọn:",
 'mass_edit_fix_fr2'		=>	"Bạn có chắc chắn muốn tắt tính năng ghim bài viết đã chọn:", // English error: disnable->disable
 'mass_confirm_2'		=>	"bài viết?",
-'opt_sys_file4'			=>	"Cho phép tiếp tục tải xuống khi tải xuống tập tin",
-'opt_sys_file4d'		=>	"Bạn có thể bật hoặc tắt chức năng tiếp tục sau khi dừng tải xuống tập tin cho người dùng của mình. Nó cho phép tiếp tục tải xuống các tập tin nếu có sự ngắt kết nối.",
-'opt_sys_file5'			=>	"Tốc độ tải xuống tối đa (kb/s)",
-'opt_sys_file5d'		=>	"Bạn có thể giới hạn tốc độ tải xuống tối đa. Tốc độ tối đa được chỉ định bằng kb/s. Nếu bạn không muốn đặt giới hạn về tốc độ tải xuống tập tin, hãy nhập 0",
 // 6.0
 
 // 5.7
@@ -2083,10 +2121,6 @@ $lang = array (
 // 5.3
 'bb_t_emo'     			=>  "Thêm biểu tượng cảm xúc",
 'bb_t_up'				=>	"Tải lên tập tin",
-'opt_sys_logextra'		=>	"Phương thức xác thực trong Bảng quản trị",
-'opt_sys_logextrad'		=>	"Khi bạn bật phương thức xác thực nâng cao trong Bảng quản trị, mỗi phiên làm việc mới trong bảng quản trị sẽ yêu cầu nhập lại mật khẩu để đảm bảo không thể đăng nhập vào bảng quản trị nếu cookie của bạn bị đánh cắp.<br /> Cảnh báo! phương thức xác thực này sẽ hoạt động nếu PHP của bạn được cài đặt là mô-đun của Apache. Do đó, trước khi bật, chúng tôi khuyên bạn nên tìm hiểu chế độ hoạt động của PHP trên nhà cung cấp máy chủ của bạn trước khi bật",
-'opt_sys_stdm'			=>	"Phương thức chuẩn",
-'opt_sys_extram'		=>	"Phương thức nâng cao",
 'btn_clearcache'		=>	"Xóa bộ nhớ cache",
 'rss_info'				=>	"Nguồn:",
 'stat_cache'			=>	"<b>Cảnh báo!</b><br />Không có quyền ghi vào <b>engine/cache/</b> và <b>engine/cache/system/</b>. Đặt CHMOD 777 cho các thư mục này và CHMOD 666 cho tất cả các tập tin trong đó!",
