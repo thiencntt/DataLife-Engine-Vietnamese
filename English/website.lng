@@ -2,8 +2,18 @@
 
 $lang = array (
 
-'charset'			=>	"utf-8",
-'wysiwyg_language'	=>  "en",
+'language_code'		    =>  "en",
+'direction'		        =>  "ltr",
+
+// 17.0
+'attach_images'         => "Attach Images",
+'self_delete_1'         => "Do you really want to delete your account and all your data from this site? This action cannot be undone.",
+'self_delete_2'         => "To confirm the deletion of your account, you need to enter your password from your account:",
+'self_delete_3'         => "Deleting an account",
+'self_delete_4'         => "Password required",
+'self_delete_5'         => "Your account and all your data have been deleted from the site.",
+'self_delete_6'         => "Your request to delete your account has been sent to the site administration. It will be processed by the site administrator.",
+// 17.0
 
 // 16.1
 'twofactor_auth_1'      => "Off",

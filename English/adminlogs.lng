@@ -2,6 +2,25 @@
 
 $lang_logs = array (
 
+    // 17.0
+'admin_logs_action_122'		=>	"Disabling links in the Redirects module",
+'admin_logs_action_123'		=>	"Enabling links in the Redirects module",
+'admin_logs_action_124'		=>	"Disabling links in the 'Meta Tags' module",
+'admin_logs_action_125'		=>	"Enabling links in the 'Meta Tags' module",
+'admin_logs_action_126'		=>	"Disabling links in the 'Cross-references' module",
+'admin_logs_action_127'		=>	"Enabling links in the 'Cross-references' module",
+'admin_logs_action_128'		=>	"Adding a new storage:",
+'admin_logs_action_129'		=>	"Editing the storage:",
+'admin_logs_action_130'		=>	"Disabling External Storage",
+'admin_logs_action_131'		=>	"Enabling External Storage",
+'admin_logs_action_132'		=>	"Mass delete of external storage",
+'admin_logs_action_133'		=>	"Mass enable of external storage",
+'admin_logs_action_134'		=>	"Mass disable of external storage",
+'admin_logs_action_135'		=>	"Changing the default storage",
+'admin_logs_action_136'		=>	"Deleting Storage:",
+'admin_logs_action_137'		=>	"Self-deletion of your own account",
+// 17.0
+
 // 14.0
 'admin_logs_action_120'		=>	"Category enabled, ID:",
 'admin_logs_action_121'		=>	"Category disabled, ID:",

@@ -146,17 +146,17 @@ Click "+ Создать новое приложение" in the upper right corn
 Where tags [facebook] … [/facebook] display the text enclosed between them if the authorization using Facebook network is enabled. Tag {facebook_url} displays the URL link to the authorization in the social network.
 <br><br>
 <div class="bg-primary-700" style="padding:10px;">Configure authorization using Google</div>
-The first thing you need is to create a new application <a href="https://code.google.com/apis/console/" target="_blank">Google</a>. After navigating to the page click on "Create project".
-<div style="text-align:center;"><img src="engine/skins/images/google1.jpg" /></div>
-After completing the form, go to the library and click on the Google+ API (note that the top should be the name of your created project)
-<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google2.jpg" /></div>
-<br />Include this API, and after activation You will be prompted to create credentials. Fill in the form. And save:
-<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google3.jpg" /></div>
-<br />Fill the form:
-<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google4.jpg" /></div>
-<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google5.jpg" /></div>
-<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google6.jpg" /></div>
-<br />You will need the following options: "Client ID" and "Client Secret" that you should enter to Administration Panel of the script in Social Network Settings. These fields will be unique for your site, they cannot be copied from the screenshot above.
+<p>The first thing you need is to create a new application <a href="https://code.google.com/apis/console/" target="_blank">Google</a>.</p>
+<ol>
+	<li>Create a new project, name the project, and select <strong>Create</strong>.</li>
+	<li>On the project home page, go to <strong>APIs &amp; Services</strong> on the sidebar and select <strong>Dashboard</strong>.</li>
+	<li>On the sidebar, go to <strong>Credentials</strong> and select <strong>Configure Consent Screen</strong> at the top of the page.</li>
+	<li>Choose External as the User Type. Since this application is not being created in a Google Workspace account, any user with a Gmail address can login.</li>
+	<li>Name the application, add a support email, and input contact fields. Google Cloud Platform requires an email in your account. <b>Note:</b> In the Scopes section, we recommend adding the <b>userinfo.email</b> scope.</li>
+	<li>Return to the <strong>APIs &amp; Services</strong> page, select <strong>Create Credentials</strong> &gt; <strong>OAuth client ID</strong>, and name the application.</li>
+	<li>Under <strong>Authorized redirect URIs</strong>, in the <strong>URIs</strong> field, enter your team domain followed by this callback at the end of the path: https://website.com/index.php?do=auth-social&amp;provider=google</li>
+	<li>Google will present the OAuth Client ID and Secret values.</li>
+</ol>
 <br /><br />After that place the following code into <b>login.tpl</b>:
 <div class="code">[google]&lt;a href="{google_url}" target="_blank"&gt;Log in using Google&lt;/a&gt;[/google]</div>
 Where tags [google] … [/google] display the text enclosed between them if the authorization using Google is enabled. Tag {google_url}  displays the URL link to the authorization in the network.
