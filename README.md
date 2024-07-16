@@ -18,7 +18,7 @@ Do không có thời gian chăm lo cho website dleviet.com nên tôi đã quyế
 2. [Chinese](https://github.com/imdabao/dle_zh-cn)
 
 # ENGLISH GREETING
-Hello all admin from around the world, our team is from Vietnam and we run website [DLEVIET](https://dleviet.com) in the past. We hope to share our knowledge about coding and running DLE
+Hello all admin from around the world, our team is from Vietnam and we run website dleviet.com in the past. We hope to share our knowledge about coding and running DLE
 
 # DANH SÁCH CÁC CODER ĐÃ HỖ TRỢ
 Mọi sự đóng góp sẽ được ghi nhận và đăng lên đây để tỏ lòng biết ơn!
@@ -27,8 +27,8 @@ Mọi sự đóng góp sẽ được ghi nhận và đăng lên đây để tỏ
 
 | PHIÊN BẢN DLE | LINK TẢI TIẾNG VIỆT|LINK TẢI ENGLISH|GHI CHÚ|
 | --- | --- | --- | --- |
-| v.17.2 | [English]([https://github.com/#](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_en.zip) |[Vietnamese]([https://github.com/#](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_vi.zip))|MỚI NHẤT|
-| v.17.1 | [English]([https://github.com/#](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_en.zip) |[Vietnamese]([https://github.com/#](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_vi.zip))||
-| v.17.0 | [English]([https://github.com/#](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.0_en.zip) |[Vietnamese]([https://github.com/#](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.0_vi.zip))||
-| v.16.1 | [English]([https://github.com/#](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v16.1_en.zip) |[Vietnamese]([https://github.com/#](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v16.1_vi.zip))||
+| v.17.2 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_vi.zip) |MỚI NHẤT|
+| v.17.1 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_vi.zip) ||
+| v.17.0 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.0_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.0_vi.zip) ||
+| v.16.1 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v16.1_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v16.1_vi.zip) ||
 | --- | --- | --- | --- |
