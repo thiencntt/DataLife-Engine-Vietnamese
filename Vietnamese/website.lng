@@ -5,6 +5,19 @@ $lang = array (
 'language_code'		    =>  "vi",
 'direction'		        =>  "ltr",
 
+// 17.2
+'ajax_edit_cat'          => "Danh mục:",
+'group_change_1'         => "Tư cách thành viên của bạn trong nhóm <b>{oldgroup}</b> đã hết hạn. Bạn đã được chuyển sang nhóm <b>{newgroup}</b>.",
+'group_change_2'         => "Bạn đã đăng {count} bài viết và bạn đã được chuyển từ nhóm <b>{oldgroup}</b> sang nhóm mới <b>{newgroup}</b>.",
+'group_change_3'         => "Bạn đã đăng {count} bình luận và bạn đã được chuyển từ nhóm <b>{oldgroup}</b> sang nhóm mới <b>{newgroup}</b>.",
+'group_change_4'         => "Dựa trên xếp hạng bài đăng mới của bạn, bạn đã được chuyển từ nhóm <b>{oldgroup}</b> sang nhóm mới <b>{newgroup}</b>.",
+'group_change_5'         => "Dựa trên xếp hạng bình luận mới của bạn, bạn đã được chuyển từ nhóm <b>{oldgroup}</b> sang nhóm mới <b>{newgroup}</b>.",
+'addnews_xf_alert_2'     => "Trường <b>{field}</b> phải chứa ít nhất <b>{count}</b> ký tự",
+'addnews_xf_alert_3'     => "Trường <b>{field}</b> không được chứa nhiều hơn <b>{count}</b> ký tự",
+'error_complaint_5'      => "Bạn đã vượt quá số lượng khiếu nại tối đa mà bạn có thể gửi đến ban quản trị. Bạn cần đợi quá trình xử lý các khiếu nại được gửi trước đó xong. Cảm ơn bạn!",
+'error_complaint_6'      => "Nhóm người dùng <b>'{group}'</b> của bạn bị ban quản trị trang cấm gửi khiếu nại",
+// 17.2
+
 // 17.1
 'comm_placeholder'      => "Vui lòng nhập nội dung muốn bình luận",
 'comm_a_placeholder'    => "Tên người bình luận",
@@ -1169,7 +1182,7 @@ $langdateshortweekdays = array("CN","T2","T3","T4","T5","T6","T7");
 
 $langtranslit = array(
 
-// Begin fix SEO link for Vietnamese by dleviet.com
+// Begin fix SEO link for Vietnamese by thiencntt.com
 'á' => 'a', 'à' => 'a', 'ả' => 'a',
 'ã' => 'a', 'ạ' => 'a', 'â' => 'a',
 'ấ' => 'a', 'ầ' => 'a', 'ẩ' => 'a',
@@ -1221,7 +1234,7 @@ $langtranslit = array(
 'Ỹ' => 'Y', 'Ỵ' => 'Y',
 'Đ' => 'D',
 
-// End fix SEO link for Vietnamese by dleviet.com
+// End fix SEO link for Vietnamese by thiencntt.com
 
 
 'а' => 'a', 'б' => 'b', 'в' => 'v',

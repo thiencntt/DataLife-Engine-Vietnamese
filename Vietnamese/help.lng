@@ -17,16 +17,16 @@ Ví dụ:
 <div class="code">
 <b>1)</b>- Tên field: stit<br />
 &nbsp;&nbsp;- Mô tả field: Nguồn thông tin<br />
-&nbsp;&nbsp;- Giá trị mặc định: DLEVIET<br />
+&nbsp;&nbsp;- Giá trị mặc định: ThienCNTT<br />
 &nbsp;&nbsp;- Người đăng bài có thể để trống field này: yes<br />
 <b>2)</b>- Tên field: source<br />
 &nbsp;&nbsp;- Mô tả field: Liên kết đến Nguồn thông tin<br />
-&nbsp;&nbsp;- Giá trị mặc định: https://dleviet.com<br />
+&nbsp;&nbsp;- Giá trị mặc định: https://thiencntt.com<br />
 &nbsp;&nbsp;- Người đăng bài có thể để trống field này: yes<br /><br />
 [xfgiven_source]Nguồn lấy thông tin bài viết - &lt;a href=[xfvalue_source] target=_blank&gt;[xfvalue_stit]&lt;/a&gt;.[/xfgiven_source]<br />
 [xfnotgiven_source]Nguồn thông tin tự tác giả viết[/xfnotgiven_source]</div>
 Nếu field này được nhập thông tin trong quá trình đăng bài viết, thì mã HTML sau sẽ được hiển thị dưới dạng:
-<div class="code">Nguồn lấy thông tin bài viết - &lt;a href=https://dleviet.com target=_blank&gt;DLEVIET&lt;/a&gt;.</div>
+<div class="code">Nguồn lấy thông tin bài viết - &lt;a href=https://thiencntt.com target=_blank&gt;ThienCNTT&lt;/a&gt;.</div>
 Nếu field này không được nhập thông tin trong quá trình đăng bài viết, bạn sẽ thấy:
 <div class="code">Nguồn thông tin tự tác giả viết</div>
 Hãy nhớ rằng chỉ các ký tự Latin và số được phép sử dụng cho tên field.

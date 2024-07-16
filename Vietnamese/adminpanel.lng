@@ -5,6 +5,32 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 17.2
+'opt_sys_cpml'          =>  "Số lượng bình luận trên mỗi trang khi xem tất cả các bình luận gần đây.",
+'opt_sys_cpmld'         =>  "Chỉ định số lượng bình luận sẽ hiển thị trên trang khi xem tất cả các bình luận gần đây.",
+'opt_sys_max_new'       =>  "Số giờ để xem một bài viết là bài viết mới",
+'opt_sys_max_newd'      =>  "Nhập số giờ tối đa mà một bài viết sẽ được coi là bài viết mới sau khi được thêm vào trang web. Cài đặt này được sử dụng cho thẻ [new] văn bản [/new] trong giao diện để đánh dấu các bài viết mới. Chỉ định thời gian tính bằng giờ kể từ khi thêm bài viết vào trang web. Ví dụ, 24, sẽ cho biết bài viết được coi là mới trong vòng 24 giờ.",
+'opt_sys_max_upd'       =>  "Số giờ để xem một bài viết là bài viết vừa cập nhật",
+'opt_sys_max_updd'      =>  "Nhập số giờ tối đa mà một bài viết sẽ được coi là cập nhật sau khi nó được chỉnh sửa. Cài đặt này được sử dụng cho thẻ [updated] văn bản [/updated] trong giao diện để đánh dấu các bài viết vừa cập nhật, thời gian tính bằng giờ kể từ khi bài viết được chỉnh sửa cập nhật. Ví dụ, 24, sẽ cho biết bài viết được coi là vừa cập nhật trong vòng 24 giờ.",
+'v_closed'              =>  "Đóng bình chọn",
+'hint_vclosed'          =>  "Nếu cuộc bình chọn bị đóng, nó sẽ tiếp tục được hiển thị trong bài viết, nhưng người dùng sẽ không thể bỏ phiếu mà chỉ thấy kết quả của cuộc bình chọn.",
+'v_closed_date'         =>  "Cuộc khảo sát này đã kết thúc vào {date}",
+'xfield_xi36'           =>  "Bạn có thể đặt số ký tự tối thiểu phải được viết trong trường này khi viết bài. Nếu bạn không muốn đặt giới hạn này, hãy để trống trường này.",
+'xfield_xi37'           =>  "Bạn có thể đặt số ký tự tối đa phải được viết trong trường này khi viết bài. Nếu bạn không muốn đặt giới hạn này, hãy để trống trường này.",
+'xfield_f36'            =>  "Số ký tự tối thiểu trong trường",
+'xfield_f37'            =>  "Số ký tự tối đa trong trường",
+'addnews_xf_alert_2'    =>  "Trường <b>{field}</b> phải chứa ít nhất <b>{count}</b> ký tự",
+'addnews_xf_alert_3'    =>  "Trường <b>{field}</b> không được chứa nhiều hơn <b>{count}</b> ký tự",
+'group_acn'             =>  "Cho phép người dùng gửi khiếu nại bài viết",
+'group_acnd'            =>  "Khi 'Bật', người dùng sẽ có thể gửi khiếu nại trên trang web về các bài viết đã xuất bản trên trang web",
+'group_acc'             =>  "Cho phép người dùng gửi khiếu nại bình luận",
+'group_accd'            =>  "Khi 'Bật', người dùng sẽ có thể gửi khiếu nại trên trang web về các bình luận đã xuất bản trên trang web",
+'group_aco'             =>  "Cho phép người dùng gửi khiếu nại về lỗi chính tả",
+'group_acod'            =>  "Khi 'Bật', người dùng sẽ có thể gửi khiếu nại về lỗi chính tả trên trang web",
+'opt_sys_cm'            =>  "Số lượng khiếu nại tối đa",
+'opt_sys_cmd'           =>  "Bạn có thể chỉ định số lượng khiếu nại tối đa mà người dùng có thể gửi về các bài viết, bình luận hoặc lỗi chính tả",
+// 17.2
+
 // 17.1
 's_not_found'           =>   "Không tìm thấy",
 'system_find'           =>   "Tìm kiếm thiết lập",
@@ -531,7 +557,7 @@ $lang = array (
 'upgr_err_1'			=>	"Máy chủ của bạn đang sử dụng PHP v. <b>{version}</b>. Đối với phiên bản DLE hiện tại, bạn cần PHP phiên bản không thấp hơn 5.4",
 'upgr_info'				=>	"Cơ sở dữ liệu của bạn bây giờ sẽ được cập nhật lên phiên bản mới nhất của mã nguồn. Cơ sở dữ liệu của bạn sẽ được cập nhật từng bước từ phiên bản <b>{oldversion}</b> lên <b>{newversion}</b>. ",
 'upgr_all_upg'			=>	"Bạn không cần cập nhật mã nguồn, bạn đang sử dụng phiên bản mới nhất của mã nguồn.",
-'upgr_act_info'			=>	"Chào mừng bạn đến với hệ thống cập nhật tự động của DataLife Engine. Trước khi tiếp tục cập nhật, hãy đảm bảo sao lưu các tập tin của bạn trên máy chủ và sao lưu cơ sở dữ liệu của bạn, nếu không, trong trường hợp có sự cố, dữ liệu của bạn sẽ không được khôi phục.<br /><br />Để tiếp tục cập nhật mã nguồn, bạn phải nhập mã bản quyền của mình. Để tự động cập nhật mã nguồn, bạn cần có kết nối Internet giữa máy chủ của bạn và https://dleviet.com",
+'upgr_act_info'			=>	"Chào mừng bạn đến với hệ thống cập nhật tự động của DataLife Engine. Trước khi tiếp tục cập nhật, hãy đảm bảo sao lưu các tập tin của bạn trên máy chủ và sao lưu cơ sở dữ liệu của bạn, nếu không, trong trường hợp có sự cố, dữ liệu của bạn sẽ không được khôi phục.<br /><br />Để tiếp tục cập nhật mã nguồn, bạn phải nhập mã bản quyền của mình. Để tự động cập nhật mã nguồn, bạn cần có kết nối Internet giữa máy chủ của bạn và https://thiencntt.com",
 'upgr_noclose_2'		=>	"Không đóng cửa sổ này cho đến khi quá trình cập nhật trang web hoàn tất",
 'upgr_no_upg_files'		=>	"Cập nhật từ phiên bản <b>{version}</b> thật không may là không thể. Không có tập tin cập nhật nào.",
 'upgr_db_ver'			=>	"Cập nhật mã nguồn lên phiên bản:",
@@ -1266,7 +1292,7 @@ $lang = array (
 // 9.8
 'media_upload_st14'		=>	"Tải tập tin lên từ máy tính",
 'opt_sys_adr'			=>	"Người dùng ủy quyền trên tên miền và tất cả tên miền phụ",
-'opt_sys_adrd'			=>	"Nếu 'Bật', người dùng đăng nhập vào trang web sẽ có thể đăng nhập vào miền và tất cả các tên miền phụ. Ví dụ: nếu người dùng đăng nhập vào tên miền cấp hai dleviet.com, thì dữ liệu đăng nhập của họ sẽ có sẵn trên cả tên miền phụ test.dleviet.com và trên tất cả các tên miền phụ khác. Việc bật cài đặt này là giúp cho quản trị viên có thể quản lý thành viên thống nhất khi cài nhiều mã nguồn DLE trên tên miền. Nếu bạn tắt cài đặt này, dữ liệu đăng nhập người dùng sẽ chỉ áp dụng cho tên miền được cài đặt. Tắt cài đặt này nếu bạn đang tạo các trang web độc lập trên tên miền và tên miền phụ.",
+'opt_sys_adrd'			=>	"Nếu 'Bật', người dùng đăng nhập vào trang web sẽ có thể đăng nhập vào miền và tất cả các tên miền phụ. Ví dụ: nếu người dùng đăng nhập vào tên miền cấp hai thiencntt.com, thì dữ liệu đăng nhập của họ sẽ có sẵn trên cả tên miền phụ test.thiencntt.com và trên tất cả các tên miền phụ khác. Việc bật cài đặt này là giúp cho quản trị viên có thể quản lý thành viên thống nhất khi cài nhiều mã nguồn DLE trên tên miền. Nếu bạn tắt cài đặt này, dữ liệu đăng nhập người dùng sẽ chỉ áp dụng cho tên miền được cài đặt. Tắt cài đặt này nếu bạn đang tạo các trang web độc lập trên tên miền và tên miền phụ.",
 'edit_upp'				=>	"Số lượng người dùng trên mỗi trang:",
 'mark_spam_ok'			=>	"Người dùng đã bị đánh dấu là spammer. Bình luận của người này đã bị xóa và sẽ bị cấm đăng bài viết và bình luận. Tải lại trang này?",
 'mark_spam_error'		=>	"Không thể đánh dấu người dùng là \"spammer\". Tải lại trang này?",
@@ -1918,7 +1944,7 @@ $lang = array (
 'opt_sys_related_num'	=>	"Số bài viết liên quan",
 'opt_sys_related_numd'	=>	"Đặt số lượng bài viết liên quan sẽ được hiển thị trong bài viết đầy đủ",
 'opt_sys_seotype'		=>	"Loại URL thân thiện với người dùng (SEO URL):",
-'opt_sys_seotyped'		=>	"<b>Loại 1</b> - liên kết đến một bài viết đầy đủ có dạng sau: <b>http://site.name/id-article name.html</b><br /><br /><b>Loại 2</b> - liên kết đến một bài viết đầy đủ có dạng sau: <b>http://site.name/category/subcategory/id-article name.html</b> (DLEVIET khuyến khích bạn sử dụng loại này)<br /><br /><b>Loại 3</b> - liên kết đến một bài viết đầy đủ có dạng sau: <b>http://site.name/2008/04/02/article name.html</b>. Lưu ý: Loại này làm tăng tải trên máy chủ",
+'opt_sys_seotyped'		=>	"<b>Loại 1</b> - liên kết đến một bài viết đầy đủ có dạng sau: <b>http://site.name/id-article name.html</b><br /><br /><b>Loại 2</b> - liên kết đến một bài viết đầy đủ có dạng sau: <b>http://site.name/category/subcategory/id-article name.html</b> (ThienCNTT khuyến khích bạn sử dụng loại này)<br /><br /><b>Loại 3</b> - liên kết đến một bài viết đầy đủ có dạng sau: <b>http://site.name/2008/04/02/article name.html</b>. Lưu ý: Loại này làm tăng tải trên máy chủ",
 'opt_sys_seo_1'			=>	"Loại 1",
 'opt_sys_seo_2'			=>	"Loại 2",
 'opt_sys_seo_3'			=>	"Loại 3",
@@ -2182,7 +2208,7 @@ $lang = array (
 'rss_news'				=>	"Get news - Nhận tin tức",
 'rss_edit'				=>	"Cài đặt kênh",
 'rss_del'				=>	"Xóa kênh",
-'rss_hurl'				=>	"Nhập địa chỉ kênh RSS sẽ được sử dụng để nhận tin tức. Ví dụ: http://dleviet.com/rss.xml",
+'rss_hurl'				=>	"Nhập địa chỉ kênh RSS sẽ được sử dụng để nhận tin tức. Ví dụ: http://thiencntt.com/rss.xml",
 'rss_hdescr'			=>	"Mô tả ngắn về Kênh RSS. Không quá 255 ký tự",
 'rss_full'				=>	"Nhận tin tức đầy đủ",
 'rss_hfull'				=>	"Nếu 'Có', trình phân tích cú pháp sẽ tải các trang web đầy đủ từ các liên kết trong RSS và nhận toàn bộ nội dung của bài viết. Hãy nhớ rằng, quá trình này rất tốn tài nguyên.",
@@ -2362,7 +2388,7 @@ $lang = array (
 'licence_info'			=>	"Loại giấy phép:",
 'licence_trial'			=>	"Bản dùng thử",
 'licence_full'			=>	"Giấy phép đã được kích hoạt",
-'trial_info'			=>	"<h4>Chú ý!</h4>Bạn đang sử dụng phiên bản dùng thử của DLE. Cần kích hoạt giấy phép để loại bỏ các hạn chế. Mã nguồn phải được kích hoạt trên tên miền mà bạn sẽ sử dụng giấy phép. Vì vậy, nếu bạn đang sử dụng mã nguồn trên trang web thử nghiệm thì không kích hoạt trên bản sao đó. Việc kích hoạt DLE được thực hiện bởi máy chủ của chúng tôi: http://dleviet.com/, do đó bạn hãy đảm bảo có kết nối internet.",
+'trial_info'			=>	"<h4>Chú ý!</h4>Bạn đang sử dụng phiên bản dùng thử của DLE. Cần kích hoạt giấy phép để loại bỏ các hạn chế. Mã nguồn phải được kích hoạt trên tên miền mà bạn sẽ sử dụng giấy phép. Vì vậy, nếu bạn đang sử dụng mã nguồn trên trang web thử nghiệm thì không kích hoạt trên bản sao đó. Việc kích hoạt DLE được thực hiện bởi máy chủ của chúng tôi: http://thiencntt.com/, do đó bạn hãy đảm bảo có kết nối internet.",
 'trial_login'			=>	"Đăng nhập:",
 'trial_key'				=>	"Nhập một khóa để kích hoạt giấy phép:",
 'trial_act'				=>	"Bật",
@@ -2574,8 +2600,8 @@ $lang = array (
 'hint_sdesc'			=>	"Nội dung tiêu đề của trang tĩnh.",
 'hint_user'				=>	"Chỉ những thành viên có trạng thái journalist trở lên mới được hiển thị mặc định trong danh sách người dùng. Để hiển thị tất cả người dùng, nhấn nút tìm kiếm mà không cần chọn mục nào.",
 'hint_banned'			=>	"Đánh dấu vào ô này này để ngăn người dùng truy cập trang web.",
-'hint_catname'			=>	"Tên danh mục mới của bạn. Field này là bắt buộc. Ví dụ: DLEVIET là trang web thảo luận về mã nguồn DLE",
-'hint_cataltname'		=>	"Được sử dụng để xem tất cả các bài viết trong danh mục này. Field này là bắt buộc. Chỉ cho phép nhập các ký tự Latin. Ví dụ: dleviet-la-trang-web-thao-luan-ve-ma-nguon-dle",
+'hint_catname'			=>	"Tên danh mục mới của bạn. Field này là bắt buộc. Ví dụ: ThienCNTT là trang web sử dụng mã nguồn DLE",
+'hint_cataltname'		=>	"Được sử dụng để xem tất cả các bài viết trong danh mục này. Field này là bắt buộc. Chỉ cho phép nhập các ký tự Latin. Ví dụ: thiencntt-la-trang-web-su-dung-ma-nguon-dle",
 'hint_caticon'			=>	"Liên kết đến icon của danh mục này. Hiển thị biểu tượng có thể được cấu hình trong các giao diện.",
 'hint_cattempl'			=>	"Bạn có thể chọn một giao diện riêng cho danh mục này, khác với giao diện mặc định.",
 'hint_mail'				=>	"Nhập địa chỉ email của thành viên để tìm kiếm.",
@@ -3104,9 +3130,9 @@ Phiên bản PHP đang sử dụng đã lỗi thời. Một số hàm chức nă
 
 'opt_sys_hth'		=>	"Cấu hình đường dẫn DLE",
 'opt_sys_ht'		=>	"Tên trang web:",
-'opt_sys_htd'		=>	"Ví dụ: \"dleviet.com - DLEVIET - Cộng đồng webmaster sử dụng mã nguồn DataLife Engine tại Việt Nam\"",
+'opt_sys_htd'		=>	"Ví dụ: \"thiencntt.com - ThienCNTT - Website sử dụng mã nguồn DataLife Engine tại Việt Nam\"",
 'opt_sys_hu'		=>	"Trang chủ của trang web:",
-'opt_sys_hud'		=>	"Nhập tên miền chính trang web của bạn. Ví dụ: http://yoursite.com/. Cảnh báo, dấu gạch chéo ở cuối tên miền là bắt buộc phải nhập.",
+'opt_sys_hud'		=>	"Nhập tên miền chính trang web của bạn. Ví dụ: https://yoursite.com/. Cảnh báo, dấu gạch chéo ở cuối tên miền là bắt buộc phải nhập.",
 'opt_sys_all'		=>	"Cài đặt chung",
 
 'opt_sys_amail'		=>	"Địa chỉ email hệ thống của quản trị viên:",
@@ -3444,7 +3470,7 @@ $langformatdatefull = "d-m-Y H:i:s";
 
 $langtranslit = array(
 
-// Begin fix SEO link for Vietnamese by dleviet.com
+// Begin fix SEO link for Vietnamese by thiencntt.com
 'á' => 'a', 'à' => 'a', 'ả' => 'a',
 'ã' => 'a', 'ạ' => 'a', 'â' => 'a',
 'ấ' => 'a', 'ầ' => 'a', 'ẩ' => 'a',
@@ -3496,7 +3522,7 @@ $langtranslit = array(
 'Ỹ' => 'Y', 'Ỵ' => 'Y',
 'Đ' => 'D',
 
-// End fix SEO link for Vietnamese by dleviet.com
+// End fix SEO link for Vietnamese by thiencntt.com
 
 'а' => 'a', 'б' => 'b', 'в' => 'v',
 'г' => 'g', 'д' => 'd', 'е' => 'e',
