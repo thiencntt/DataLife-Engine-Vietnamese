@@ -5,6 +5,19 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 17.2
+'ajax_edit_cat'          => "Category:",
+'group_change_1'         => "Your time in the <b>{oldgroup}</b> group has expired. You have been moved to the <b>{newgroup}</b> group.",
+'group_change_2'         => "You have published {count} publications, so you have been transferred from the group <b>{oldgroup}</b> to the new group <b>{newgroup}</b>.",
+'group_change_3'         => "You posted {count} comments, so you were transferred from the group <b>{oldgroup}</b> to the new group <b>{newgroup}</b>.",
+'group_change_4'         => "According to your new publication rating, you have been transferred from the group <b>{oldgroup}</b> to the new group <b>{newgroup}</b>.",
+'group_change_5'         => "According to your new comment rating, you have been transferred from the group <b>{oldgroup}</b> to the new group <b>{newgroup}</b>.",
+'addnews_xf_alert_2'     => "The field <b>{field}</b> must contain at least <b>{count}</b> characters",
+'addnews_xf_alert_3'     => "The field <b>{field}</b> must contain no more than <b>{count}</b> characters",
+'error_complaint_5'      => "You have exceeded the maximum number of complaints that can be submitted to the administration at this time. We apologize for any inconvenience and would appreciate your patience while we process the complaints already submitted from your account. Thank you for your understanding",
+'error_complaint_6'      => "For your group <b>'{group}'</b> the site administration prohibits sending complaints",
+// 17.2
+
 // 17.1
 'comm_placeholder'      => "Please write the text of your comment.",
 'comm_a_placeholder'    => "The name of the comment's author",

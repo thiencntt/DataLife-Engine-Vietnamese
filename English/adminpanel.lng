@@ -5,6 +5,32 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 17.2
+'opt_sys_cpml'          =>  "The number of comments displayed per page when viewing the page with all recent comments.",
+'opt_sys_cpmld'         =>  "Specify the number of comments to display on a page when viewing a list of recent comments.",
+'opt_sys_max_new'       =>  "The number of hours after which a publication is considered to be new.",
+'opt_sys_max_newd'      =>  "Enter the maximum number of hours during which the publication will be considered new after it is added to the site. This setting is used for [new] text [/new] tags in templates for marking new news. The time is indicated in hours from the moment the publication was added to the site. For example, 24, this will indicate that the news is considered new during the day.",
+'opt_sys_max_upd'       =>  "The number of hours within which the publication is considered to be up-to-date.",
+'opt_sys_max_updd'      =>  "Enter the maximum number of hours after which the publication should be considered updated. This setting is used to determine the timeframe for tags [updated] text [/updated] in the templates for marking news updates, the time in hours since publication is indicated. For example, if the number is 24, it means that the news was considered updated within a day.",
+'v_closed'              =>  "Close the poll for voting",
+'hint_vclosed'          =>  "If the poll is closed, it will still be displayed in the publication. Users will no longer be able to vote in it, but they will only be able to see the results.",
+'v_closed_date'         =>  "This poll has now been closed. {date}",
+'xfield_xi36'           =>  "You can set the minimum number of characters required to be entered in this field when submitting a publication. If you prefer not to have this restriction, please leave the field blank.",
+'xfield_xi37'           =>  "You can set the maximum number of characters that will be written in this field when creating a post. If you prefer not to set this limit, you can leave this field blank.",
+'xfield_f36'            =>  "The minimum number of characters required in the field is",
+'xfield_f37'            =>  "The maximum number of characters required in the field is",
+'addnews_xf_alert_2'    =>  "The field <b>{field}</b> must contain at least <b>{count}</b> characters",
+'addnews_xf_alert_3'    =>  "The field <b>{field}</b> must contain no more than <b>{count}</b> characters",
+'group_acn'             =>  "Allow users to submit complaints about publications",
+'group_acnd'            =>  "When this setting is activated, users will be able to submit complaints about published content on the website",
+'group_acc'             =>  "Allow users to submit complaints about comments",
+'group_accd'            =>  "When this setting is activated, users will be able to submit complaints about comments posted on the website",
+'group_aco'             =>  "Allow users to submit complaints about spelling errors",
+'group_acod'            =>  "When this setting is activated, users will be able to submit complaints about spelling mistakes on the website",
+'opt_sys_cm'            =>  "Maximum number of complaints",
+'opt_sys_cmd'           =>  "You can set the maximum number of complaints that users can submit for posts, comments, or spelling errors",
+// 17.2
+
 // 17.1
 's_not_found'           =>   "Nothing was found",
 'system_find'           =>   "Search by settings",
