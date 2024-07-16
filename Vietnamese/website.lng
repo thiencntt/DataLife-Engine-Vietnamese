@@ -5,6 +5,12 @@ $lang = array (
 'language_code'		    =>  "vi",
 'direction'		        =>  "ltr",
 
+// 17.1
+'comm_placeholder'      => "Vui lòng nhập nội dung muốn bình luận",
+'comm_a_placeholder'    => "Tên người bình luận",
+'error_complaint_4'     => "Bạn chưa nhập nội dung khiếu nại của bạn",
+// 17.1
+
 // 17.0
 'attach_images'         => "Đính kèm hình ảnh",
 'self_delete_1'         => "Bạn có chắc chắn muốn xóa tài khoản và tất cả dữ liệu của mình khỏi trang web này không? Hành động này không thể được hoàn tác.",

@@ -5,6 +5,31 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 17.1
+'s_not_found'           =>   "Không tìm thấy",
+'system_find'           =>   "Tìm kiếm thiết lập",
+'opt_sys_fme'		    =>   "Bật trình chỉnh sửa trực quan trên thiết bị di động khi thêm bình luận",
+'opt_sys_fmed'          =>   "Khi cài đặt này được bật, nếu người dùng đang sử dụng điện thoại thông minh, trình chỉnh sửa trực quan được điều chỉnh cho màn hình nhỏ sẽ được sử dụng khi viết bình luận. Sẽ thuận tiện hơn khi sử dụng màn hình cảm ứng và chứa tối thiểu các nút chỉnh sửa.",
+'opt_sys_inden'			=>	 "Nhà cung cấp thông báo IndexNow",
+'opt_sys_indend'		=>	 "Chọn nhà cung cấp cho các thông báo IndexNow sẽ được sử dụng để thông báo cho các công cụ tìm kiếm. Việc lựa chọn nhà cung cấp không ảnh hưởng đến công cụ tìm kiếm nào sẽ được thông báo, cuối cùng tất cả chúng sẽ được thông báo tự động. Nhưng việc lựa chọn nhà cung cấp ảnh hưởng đến tốc độ phản hồi và phản hồi thông báo, vì vậy hãy chọn địa điểm phản hồi nhanh nhất cho trang web của bạn và nằm gần nhất.",
+'opt_sys_qemo'			=>	 "Chế độ chỉnh sửa nhanh các ấn phẩm trên trang web:",
+'opt_sys_qemod'			=>	 "Bạn có thể chọn chế độ chỉnh sửa nhanh trên trang web. Nếu chế độ chỉ điền các trường được chọn thì trong khi chỉnh sửa nhanh, chỉ những trường đã được điền trước đó trong bài viết sẽ được hiển thị tại thời điểm nó được thêm vào. Nếu được chọn chỉnh sửa tất cả các trường thì khi chỉnh sửa nhanh, bạn có thể chỉnh sửa và điền vào tất cả các trường có sẵn cho bài viết này.",
+'opt_sys_qemo1'			=>	 "Chỉ các trường đã điền trước đó",
+'opt_sys_qemo2'			=>	 "Tất cả các trường",
+'opt_sys_imuqid'		=>	 "Thêm tiền tố duy nhất vào tên của hình ảnh được tải lên",
+'opt_sys_imuqidd'		=>	 "Nếu 'Bật', một tiền tố duy nhất sẽ được thêm vào tên của hình ảnh được tải lên trong các bài viết, làm cho tên tập tin là duy nhất. Nếu 'Tắt', khi tải lên tập tin sẽ được giữ nguyên tên tập tin. Việc kích hoạt thường là cần thiết nếu bạn tải lên đồng thời các tập tin có cùng tên từ các thư mục khác nhau hoặc, ví dụ: nếu bạn thường xuyên tải lên lại cùng một tập tin để tránh bộ nhớ đệm của trình duyệt.",
+'google_set_images'	    =>	 "Đưa hình ảnh được tải lên cho bài viết vào sơ đồ trang web.",
+'plugins_a_1'		    =>	 "Bật",
+'plugins_a_2'		    =>	 "Tắt",
+'plugins_a_3'		    =>	 "Tải xuống",
+'plugins_a_4'		    =>	 "Kiểm tra cập nhật",
+'plugins_a_5'		    =>	 "Tải xuống bản cập nhật",
+'xfield_asm'			=>	 "Cho phép chọn nhiều lựa chọn",
+'xfield_asm1'			=>	 "Bạn có thể cho phép hoặc vô hiệu hóa việc chọn nhiều giá trị từ danh sách này. Nếu tùy chọn này bị tắt, người dùng sẽ chỉ có thể chọn một giá trị từ danh sách khi viết bài",
+'xfield_separator_3'	=>	 "Dấu phân cách khi hiển thị nhiều trường giá trị",
+'xfield_separator_2'	=>	 "Nếu một trường cho phép chọn nhiều giá trị, bạn có thể chỉ định dấu phân cách sẽ được sử dụng giữa các giá trị khi hiển thị trong bài viết. Bạn cũng có thể sử dụng mã HTML. Nếu bạn để cài đặt này trống, dấu phẩy sẽ được sử dụng.",
+// 17.1
+
 // 17.0
 'found_news'            =>   "(Tìm thấy: {count})",
 'all_enable'            =>   "Bật",
