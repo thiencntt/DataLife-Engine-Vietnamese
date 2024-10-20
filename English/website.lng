@@ -5,6 +5,11 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 17.3
+'stat_phperror'          => "The PHP version on the server is not up to the minimum required. The Datalife Engine will not function correctly on this older version of PHP. To ensure proper operation, the PHP version must be updated to at least <b>{minversion}</b>. Your installed version {version}",
+'country_declined'       => "You are located in a country that is not allowed to view this site.",
+// 17.3
+
 // 17.2
 'ajax_edit_cat'          => "Category:",
 'group_change_1'         => "Your time in the <b>{oldgroup}</b> group has expired. You have been moved to the <b>{newgroup}</b> group.",
@@ -439,7 +444,7 @@ $lang = array (
 'p_send'			=>	"Send",
 'p_send_ok'			=>	"Notification has been sent successfully ",
 'p_text'			=>	"Enter the text of the notification to the author that he/she will receive as a personal message:",
-'p_message'			=>	"Yes, and send the notification ",
+'p_message'			=>	"Delete and Notify",
 // 9.2
 
 // 9.0
@@ -450,7 +455,7 @@ $lang = array (
 'p_prompt'			=>	"Enter the information",
 'p_user'			=>	"User: ",
 'p_yes'				=>	"Yes",
-'p_no'				=>	"No",
+'p_no'				=>	"Cancel",
 'p_enter'			=>	"Enter",
 'p_cancel'			=>	"Cancel",
 'news_err_42'		=>	"<li>You have the administration access, so you must go to Administration Panel to change the e-mail address or password on the website. This step was taken for security reasons. In the Administration Panel, go to user management and find your login there to perform the necessary changes</li>",

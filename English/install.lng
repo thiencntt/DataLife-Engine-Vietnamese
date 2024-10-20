@@ -2,6 +2,13 @@
 
 $lang = array_merge($lang, array (
 
+// 17.3
+'install_94'	=>	"FileInfo extension support",
+'install_95'	=>	"GD2 extension support",
+'install_96'	=>	"Curl extension support",
+'install_97'	=>	"SimpleXML extension support",
+// 17.3
+
 // 14.3
 'install_1'		=>	"DataLife Engine Installation Wizard",
 'install_2'		=>	"Next",
