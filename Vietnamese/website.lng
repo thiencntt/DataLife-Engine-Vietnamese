@@ -5,6 +5,11 @@ $lang = array (
 'language_code'		    =>  "vi",
 'direction'		        =>  "ltr",
 
+// 17.3
+'stat_phperror'          => "Phiên bản PHP trên máy chủ không đạt mức tối thiểu được yêu cầu. Datalife Engine sẽ không hoạt động chính xác trên phiên bản PHP cũ hơn này. Để đảm bảo hoạt động bình thường, phiên bản PHP phải được cập nhật lên ít nhất <b>{minversion}</b>. Phiên bản đã cài đặt của bạn {version}",
+'country_declined'       => "Bạn đang ở một quốc gia không được phép xem trang web này.",
+// 17.3
+
 // 17.2
 'ajax_edit_cat'          => "Danh mục:",
 'group_change_1'         => "Tư cách thành viên của bạn trong nhóm <b>{oldgroup}</b> đã hết hạn. Bạn đã được chuyển sang nhóm <b>{newgroup}</b>.",
@@ -438,7 +443,7 @@ $lang = array (
 'p_send'			=>	"Gửi",
 'p_send_ok'			=>	"Thông báo đã được gửi thành công",
 'p_text'			=>	"Nhập văn bản của thông báo cho tác giả rằng họ sẽ nhận được dưới dạng tin nhắn cá nhân:",
-'p_message'			=>	"Có, và gửi thông báo",
+'p_message'			=>	"Xóa và gửi thông báo",
 // 9.2
 
 // 9.0
@@ -449,7 +454,7 @@ $lang = array (
 'p_prompt'			=>	"Nhập thông tin",
 'p_user'			=>	"Người dùng:",
 'p_yes'				=>	"Yes",
-'p_no'				=>	"No",
+'p_no'				=>	"Hủy bỏ",
 'p_enter'			=>	"Enter",
 'p_cancel'			=>	"Hủy bỏ",
 'news_err_42'		=>	"<li>Bạn có quyền truy cập quản trị, vì vậy bạn phải vào Bảng điều khiển để thay đổi địa chỉ email hoặc mật khẩu trên trang web. Bước này được thực hiện vì lý do bảo mật. Trong Bảng điều khiển quản trị, đi tới quản lý người dùng và tìm thông tin đăng nhập của bạn ở đó để thực hiện các thay đổi cần thiết</li>",
