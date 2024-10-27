@@ -27,7 +27,8 @@ Mọi sự đóng góp sẽ được ghi nhận và đăng lên đây để tỏ
 
 | PHIÊN BẢN DLE | LINK TẢI TIẾNG VIỆT|LINK TẢI ENGLISH|GHI CHÚ|
 | --- | --- | --- | --- |
-| v.17.2 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_vi.zip) |MỚI NHẤT|
+| v.17.3 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.3_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.3_vi.zip) |MỚI NHẤT|
+| v.17.2 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_vi.zip) ||
 | v.17.1 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_vi.zip) ||
 | v.17.0 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.0_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.0_vi.zip) ||
 | v.16.1 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v16.1_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v16.1_vi.zip) ||
