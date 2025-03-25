@@ -5,6 +5,32 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 18.0
+'feedback_banned'        => "The user has been banned from the site.",
+'country_declined_1'     => "You are located in a country where this publication is not available on the website for legal reasons.",
+'rating_error6'		     =>	"You have given a negative review to several publications today. Due to this, your ability to give negative reviews has been temporarily disabled.",
+'pm_err_14'              => "At the moment, the user has been banned from the site and is unable to receive personal messages.",
+'pm_err_15'              => "You do not have permission to access this correspondence.",
+'pm_err_16'              => "You do not have permission to delete this message.",
+'pm_err_17'              => "You can no longer edit this message because it has already been seen by another person in the chat.",
+'pm_with_user'           => "Communication with the user:",
+'ai_command_1'           => "Provide the key points and concepts in this content in a succinct summary.",
+'ai_command_2'           => "Rewrite this content with no spelling mistakes, proper grammar, and with more descriptive language, using best writing practices without losing the original meaning.",
+'ai_command_3'           => "Rewrite this content with simplified language and reduce the complexity of the writing, so that the content is easier to understand.",
+'ai_command_4'           => "Expand upon this content with descriptive language and more detailed explanations, to make the writing easier to understand and increase the length of the content.",
+'ai_command_5'           => "Remove any repetitive, redundant, or non-essential writing in this content without changing the meaning or losing any key information.",
+'ai_command_6'           => "Rewrite this content using polished, formal, and respectful language to convey professional expertise and competence.",
+'ai_command_7'           => "Rewrite this content with casual, informal language to convey a casual conversation with a real person.",
+'ai_command_8'           => "Rewrite this content with direct language using only the essential information.",
+'ai_command_9'           => "Rewrite this content using compelling, optimistic language to convey confidence in the writing.",
+'ai_command_10'          => "Rewrite this content using friendly, comforting language, to convey understanding and empathy.",
+'ai_command_11'          => "Rewrite this content as a business professional with formal language.",
+'ai_command_12'          => "Rewrite this content as a legal professional using valid legal terminology.",
+'ai_command_13'          => "Rewrite this content as a journalist using engaging language to convey the importance of the information.",
+'ai_command_14'          => "Rewrite this content as a medical professional using valid medical terminology.",
+'ai_command_15'          => "Rewrite this content as a poem using poetic techniques without losing the original meaning.",
+// 18.0
+
 // 17.3
 'stat_phperror'          => "The PHP version on the server is not up to the minimum required. The Datalife Engine will not function correctly on this older version of PHP. To ensure proper operation, the PHP version must be updated to at least <b>{minversion}</b>. Your installed version {version}",
 'country_declined'       => "You are located in a country that is not allowed to view this site.",
@@ -24,7 +50,7 @@ $lang = array (
 // 17.2
 
 // 17.1
-'comm_placeholder'      => "Please write the text of your comment.",
+'comm_placeholder'      => "Please write the text of your message.",
 'comm_a_placeholder'    => "The name of the comment's author",
 'error_complaint_4'     => "You did not provide the text of your complaint.",
 // 17.1
@@ -958,23 +984,22 @@ $lang = array (
 'news_pmnew'		=>	"Write PM",
 
 'pm_err_1'			=>	"Unfortunately, you are not allowed to use personal messages on the website",
-'pm_err_2'			=>	"<li>All fields are required</li>",
-'pm_err_3'			=>	"<li>Message subject is too long</li>",
-'pm_err_4'			=>	"<li>Recipient with this name could not be found</li>",
-'pm_err_8'			=>	"<li>This recipient cannot receive personal messages. The number of personal messages of the recipient has reached its maximum value.</li>",
+'pm_err_2'			=>	"All fields are required",
+'pm_err_3'			=>	"Message subject is too long",
+'pm_err_4'			=>	"Recipient with this name could not be found",
+'pm_err_8'			=>	"This recipient cannot receive personal messages. The number of personal messages of the recipient has reached its maximum value.",
 'pm_err_5'			=>	"Personal messages have not been deleted. You did not choose any or you don't have the permission to do that.",
-'pm_err_6'			=>	"The message with this number is not found",
-'pm_err_7'			=>	"You are not allowed to view other user's personal messages ",
+'pm_err_6'			=>	"This message has been deleted or you do not have permission to view it.",
 'pm_err_9'			=>	"Your mailbox has reached the maximum number of received messages. You cannot get more personal messages until you delete unnecessary messages ",
 
 'pm_sendok'			=>	"Your message has been sent successfully.",
 'pm_confirm'		=>	"Are you sure you want to delete this message?",
 'pm_noch'			=>	"Send more",
-'pm_main'			=>	"return to the Homepage ",
+'pm_main'			=>	"return to the message list",
 'pm_or'				=>	"or",
 'pm_delok'			=>	"Selected messages were deleted successfully.",
-'pm_subj'			=>	"Subject of the message",
-'pm_from'			=>	"Sender",
+'pm_subj'			=>	"List of messages",
+'pm_from'			=>	"Last",
 'pm_date'			=>	"Date",
 'pm_action'			=>	"Action?",
 'pm_del'			=>	"delete",
