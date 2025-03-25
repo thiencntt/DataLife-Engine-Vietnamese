@@ -27,7 +27,7 @@ Mọi sự đóng góp sẽ được ghi nhận và đăng lên đây để tỏ
 
 | PHIÊN BẢN DLE | LINK TẢI ENGLISH | LINK TẢI TIẾNG VIỆT | GHI CHÚ |
 | --- | --- | --- | --- |
-| v.18.0 | Checking | Đang dịch |MỚI NHẤT|
+| v.18.0 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v18.0_en.zip) | Đang dịch |MỚI NHẤT|
 | v.17.3 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.3_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.3_vi.zip) ||
 | v.17.2 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_vi.zip) ||
 | v.17.1 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_vi.zip) ||
