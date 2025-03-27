@@ -5,6 +5,32 @@ $lang = array (
 'language_code'		    =>  "vi",
 'direction'		        =>  "ltr",
 
+// 18.0
+'feedback_banned'        => "Người dùng bị cấm khỏi trang web",
+'country_declined_1'     => "Bạn đang ở quốc gia không được phép xem bài viết này.",
+'rating_error6'		     =>	"Bạn đã đưa ra quá nhiều đánh giá tiêu cực cho các bài viết khác nhau trong ngày hôm nay. Chức năng đánh giá tiêu cực đã tạm thời bị vô hiệu hóa đối với bạn.",
+'pm_err_14'              => "Người dùng hiện đang bị cấm khỏi trang web và không thể nhận được tin nhắn cá nhân",
+'pm_err_15'              => "Bạn không có quyền truy cập vào cuộc trò chuyện này",
+'pm_err_16'              => "Bạn không có quyền xóa tin nhắn này",
+'pm_err_17'              => "Bạn không thể chỉnh sửa tin nhắn nữa vì nó đã được một người tham gia khác trong cuộc trò chuyện đọc rồi",
+'pm_with_user'           => "Giao tiếp với người dùng:",
+'ai_command_1'          =>  "Viết các điểm chính và khái niệm của văn bản này trong phần tóm tắt.",
+'ai_command_2'          =>  "Viết lại văn bản này mà không có lỗi chính tả, ngữ pháp đúng và ngôn ngữ tường thuật hơn, sử dụng các kỹ thuật viết tốt nhất mà không làm mất đi ý nghĩa ban đầu.",
+'ai_command_3'          =>  "RViết lại văn bản này bằng ngôn ngữ đơn giản hơn và giảm độ phức tạp của văn bản để dễ hiểu hơn.",
+'ai_command_4'          =>  "Mở rộng văn bản này chi tiết hơn, sử dụng ngôn ngữ mô tả và giải thích chi tiết hơn để làm cho văn bản rõ ràng hơn và tăng lượng nội dung.",
+'ai_command_5'          =>  "Giảm tất cả các mục lặp lại, thừa hoặc không liên quan trong văn bản này mà không làm thay đổi ý nghĩa hoặc mất đi bất kỳ thông tin quan trọng nào, để làm cho văn bản ngắn gọn và dễ hiểu hơn.",
+'ai_command_6'          =>  "Viết lại văn bản này bằng ngôn ngữ trau chuốt, trang trọng và tôn trọng để truyền đạt kinh nghiệm chuyên môn và năng lực.",
+'ai_command_7'          =>  "Viết lại văn bản này bằng ngôn ngữ thông thường để truyền đạt một cuộc trò chuyện thông thường với một người thật.",
+'ai_command_8'          =>  "Viết lại văn bản này ở dạng văn bản thuần túy, chỉ sử dụng thông tin quan trọng nhất.",
+'ai_command_9'          =>  "Viết lại văn bản này bằng ngôn ngữ thuyết phục, lạc quan để truyền tải sự tự tin vào nội dung đã viết.",
+'ai_command_10'         =>  "Viết lại văn bản này bằng ngôn ngữ thân thiện, nhẹ nhàng để thể hiện sự hiểu biết và đồng cảm.",
+'ai_command_11'         =>  "Viết lại văn bản này bằng ngôn ngữ trang trọng theo phong cách chuyên nghiệp và thực tế.",
+'ai_command_12'         =>  "Viết lại văn bản này như một luật sư chuyên nghiệp, sử dụng thuật ngữ pháp lý chính xác.",
+'ai_command_13'         =>  "Viết lại văn bản này như một nhà báo, sử dụng ngôn ngữ hấp dẫn để truyền tải tầm quan trọng của thông tin.",
+'ai_command_14'         =>  "Viết lại văn bản này như một bác sĩ chuyên nghiệp, sử dụng thuật ngữ y khoa được chấp nhận rộng rãi.",
+'ai_command_15'         =>  "Viết lại văn bản này dưới dạng một bài thơ, sử dụng các kỹ thuật thơ ca, mà không làm mất đi ý nghĩa ban đầu.",
+// 18.0
+
 // 17.3
 'stat_phperror'          => "Phiên bản PHP trên máy chủ không đạt mức tối thiểu được yêu cầu. Datalife Engine sẽ không hoạt động chính xác trên phiên bản PHP cũ hơn này. Để đảm bảo hoạt động bình thường, phiên bản PHP phải được cập nhật lên ít nhất <b>{minversion}</b>. Phiên bản đã cài đặt của bạn {version}",
 'country_declined'       => "Bạn đang ở một quốc gia không được phép xem trang web này.",
@@ -24,7 +50,7 @@ $lang = array (
 // 17.2
 
 // 17.1
-'comm_placeholder'      => "Vui lòng nhập nội dung muốn bình luận",
+'comm_placeholder'      => "Vui lòng nhập nội dung thông điệp",
 'comm_a_placeholder'    => "Tên người bình luận",
 'error_complaint_4'     => "Bạn chưa nhập nội dung khiếu nại của bạn",
 // 17.1
@@ -958,23 +984,22 @@ $lang = array (
 'news_pmnew'		=>	"Viết PM",
 
 'pm_err_1'			=>	"Xin lỗi, bạn không được phép sử dụng tin nhắn cá nhân.",
-'pm_err_2'			=>	"<li>Tất cả các field bắt buộc nhập</li>",
-'pm_err_3'			=>	"<li>Tiêu đề tin nhắn quá dài</li>",
-'pm_err_4'			=>	"<li>Không tìm thấy người nhận nào có tên này</li>",
-'pm_err_8'			=>	"<li>Người nhận này không thể nhận tin nhắn cá nhân. Số lượng tin nhắn cá nhân của người nhận đã đạt đến giá trị tối đa.</li>",
+'pm_err_2'			=>	"Tất cả các field bắt buộc nhập",
+'pm_err_3'			=>	"Tiêu đề tin nhắn quá dài",
+'pm_err_4'			=>	"Không tìm thấy người nhận nào có tên này",
+'pm_err_8'			=>	"Người nhận này không thể nhận tin nhắn cá nhân. Số lượng tin nhắn cá nhân của người nhận đã đạt đến giá trị tối đa.",
 'pm_err_5'			=>	"Tin nhắn cá nhân chưa bị xóa. Bạn chưa chọn tin nhắn hoặc bạn không có quyền làm điều đó.",
-'pm_err_6'			=>	"Không tìm thấy tin nhắn có số này",
-'pm_err_7'			=>	"Bạn không được phép xem tin nhắn cá nhân của người khác",
+'pm_err_6'			=>	"Tin nhắn này đã bị xóa hoặc bạn không có quyền xem.",
 'pm_err_9'			=>	"Hộp thư của bạn đã đạt đến số lượng tin nhắn nhận được tối đa. Bạn không còn có thể nhận tin nhắn cá nhân cho đến khi bạn xóa các tin nhắn không cần thiết.",
 
 'pm_sendok'			=>	"Thư của bạn đã được gửi thành công.",
 'pm_confirm'		=>	"Bạn có thực sự muốn xóa tin nhắn này không?",
 'pm_noch'			=>	"Gửi thêm",
-'pm_main'			=>	"trở lại Trang chủ",
+'pm_main'			=>	"trở lại danh sách tin nhắn",
 'pm_or'				=>	"hoặc",
 'pm_delok'			=>	"Các tin nhắn được chọn đã được xóa thành công.",
-'pm_subj'			=>	"Tiêu đề của tin nhắn",
-'pm_from'			=>	"Người gửi",
+'pm_subj'			=>	"Danh sách tin nhắn",
+'pm_from'			=>	"Cuối",
 'pm_date'			=>	"Ngày",
 'pm_action'			=>	"Hành động?",
 'pm_del'			=>	"Xóa",
