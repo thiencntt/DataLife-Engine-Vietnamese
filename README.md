@@ -1,4 +1,4 @@
-![DLE-17.x](https://img.shields.io/badge/DLE-17.x-green.svg?style=flat-square) ![DLE-18.0](https://img.shields.io/badge/DLE-18.0-green.svg?style=flat-square)
+![DLE-17.x](https://img.shields.io/badge/DLE-17.x-green.svg?style=flat-square) ![DLE-18.0](https://img.shields.io/badge/DLE-18.0-green.svg?style=flat-square) ![DLE-18.1](https://img.shields.io/badge/DLE-18.1-green.svg?style=flat-square)
 
 # DataLife Engine Vietnamese (DLE Vietnamese)
 Dự án dịch ngôn ngữ tiếng Việt cho mã nguồn DataLife Engine
@@ -27,7 +27,8 @@ Mọi sự đóng góp sẽ được ghi nhận và đăng lên đây để tỏ
 
 | PHIÊN BẢN DLE | LINK TẢI ENGLISH | LINK TẢI TIẾNG VIỆT | GHI CHÚ |
 | --- | --- | --- | --- |
-| v.18.0 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v18.0_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v18.0_vi.zip) |MỚI NHẤT|
+| v.18.1 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v18.1_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v18.1_vi.zip) |MỚI NHẤT|
+| v.18.0 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v18.0_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v18.0_vi.zip) ||
 | v.17.3 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.3_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.3_vi.zip) ||
 | v.17.2 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.2_vi.zip) ||
 | v.17.1 | [English](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_en.zip) | [Vietnamese](https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v17.1_vi.zip) ||
