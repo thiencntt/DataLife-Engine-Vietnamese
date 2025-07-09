@@ -5,6 +5,20 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 18.1
+'time_heute'		    =>	"Hôm nay",
+'time_gestern'		    =>	"Hôm qua",
+'opt_sys_aim7'          =>  "Số token tối đa cho tham số max_completion_tokens",
+'opt_sys_aim7d'         =>  "Một số mô hình ngôn ngữ yêu cầu sử dụng tham số max_completion_tokens thay cho max_tokens để giới hạn số token tối đa. Do việc truy cập API ChatGPT mất phí, không nên đặt giá trị quá cao để tránh tốn kém. Để trống nếu không dùng tham số này.",
+'add_s_6' 	    		=>  "Xem danh sách người dùng",
+'opt_sys_pgr'           =>  "Người dùng không bị chặn theo quốc gia",
+'opt_sys_pgrd'          =>  "Chọn các nhóm người dùng được miễn chặn quốc gia. Những nhóm này vẫn có thể truy cập trang web dù quốc gia bị hạn chế.",
+'rebuild_s_4'			=>  "Số bài viết mỗi lượt xử lý:",
+'rebuild_s_5'			=>  "Nhập số bài viết sẽ xử lý cho mỗi lần chạy script. Số càng lớn thì tốn tài nguyên, nhưng xử lý nhanh hơn. Nếu mất nhiều thời gian, hãy giảm giá trị này.",
+'rebuild_s_6'			=>  "Số bình luận mỗi lượt xử lý:",
+'rebuild_s_7'			=>  "Nhập số bình luận sẽ xử lý cho mỗi lần chạy. Số lớn tốn nhiều tài nguyên hơn, nhưng quá trình sẽ nhanh hơn. Nếu chậm, hãy giảm số này xuống.",
+// 18.1
+
 // 18.0
 'editor_wisywig'        =>  "Trình chỉnh sửa WYSIWYG",
 'opt_sys_coua6'         =>  "Quốc gia của bạn, theo IP của bạn được xác định là:",
@@ -43,8 +57,8 @@ $lang = array (
 'opt_sys_aim2d'         =>  "Nhập đường dẫn đến điểm truy cập API ChatGPT. Đường dẫn này được sử dụng để truy cập API. Bạn có thể chỉ định đường dẫn riêng của mình đến bất kỳ dịch vụ nào hỗ trợ giao thức ChatGPT. Do đó, nếu quyền truy cập trực tiếp vào ChatGPT bị cấm đối với quốc gia của bạn, bạn có thể sử dụng bất kỳ dịch vụ nào cung cấp các dịch vụ này cho quốc gia của bạn. Ví dụ: đối với Nga, đây có thể là dịch vụ https://proxyapi.ru/",
 'opt_sys_aim3'          =>  "Chọn mô hình ngôn ngữ",
 'opt_sys_aim3d'         =>  "Bạn có thể chỉ định mô hình ngôn ngữ nào sẽ được sử dụng để xử lý các yêu cầu của bạn bằng trợ lý ChatGPT. Ví dụ: gpt-4o, gpt-4o-mini, gpt-3.5-turbo, v.v.",
-'opt_sys_aim4'          =>  "Số lượng tối đa các mã thông báo (từ) trong phản hồi",
-'opt_sys_aim4d'         =>  "Bạn có thể chỉ định số lượng mã thông báo (từ) tối đa trong phản hồi của trợ lý ChatGPT. Vì việc gọi API ChatGPT không miễn phí nên không chỉ định giá trị quá lớn vì điều này có thể dẫn đến việc chi tiêu nhiều tiền hơn vào số dư của bạn.",
+'opt_sys_aim4'          =>  "Số token tối đa cho tham số max_tokens",
+'opt_sys_aim4d'         =>  "Bạn có thể đặt số token (từ) tối đa cho mỗi phản hồi của ChatGPT. Do sử dụng API ChatGPT mất phí, không nên đặt giá trị quá cao để tránh tốn chi phí. Nếu không dùng tham số này, hãy để trống.",
 'opt_sys_aim5'          =>  "Bản chất phản hồi của mô hình ngôn ngữ (Nhiệt độ)",
 'opt_sys_aim5d'         =>  "Bản chất của câu trả lời được chỉ định là giá trị số từ 0 đến 1. Giá trị càng gần 0 thì câu trả lời càng chính xác, càng gần 1 thì câu trả lời càng sáng tạo. Ví dụ: giá trị 0.5 có nghĩa là câu trả lời cân bằng.",
 'opt_sys_aim6'          =>  "Nhóm người dùng được phép sử dụng trợ lý ChatGPT",
@@ -224,8 +238,6 @@ $lang = array (
 'hint_mfile'			=>   "Chỉ định số lượng tập tin tối đa có thể được tải xuống từ trang web mỗi ngày. Để tắt hạn chế này, hãy để trống field hoặc đặt giá trị: 0",
 'opt_sys_sprss'			=>	 "Tham số cho nguồn cấp dữ liệu RSS tiêu chuẩn",
 'opt_sys_sprssd'		=>   "Bạn có thể chỉ định các tham số sẽ được cung cấp cho luồng RSS tiêu chuẩn, những tham số này cần thiết để hỗ trợ một số thẻ nhất định. Cài đặt này chỉ dành cho người dùng có kinh nghiệm, không nên thay đổi cài đặt này nếu bạn không biết các tham số này được sử dụng để làm gì.",
-'opt_sys_tprss'			=>	 "Tham số cho nguồn cấp dữ liệu Yandex Turbo RSS",
-'opt_sys_tprssd'		=>	 "Bạn có thể chỉ định các tham số sẽ được cung cấp cho luồng Yandex Turbo, những tham số này cần thiết để hỗ trợ một số thẻ nhất định. Cài đặt này chỉ dành cho người dùng có kinh nghiệm, không nên thay đổi cài đặt này nếu bạn không biết các tham số này được sử dụng để làm gì.",
 'opt_sys_dprss'			=>	 "Tham số cho nguồn cấp dữ liệu Zen RSS",
 'opt_sys_dprssd'		=>   "Bạn có thể chỉ định các tham số sẽ được cung cấp cho luồng Zen RSS, những tham số này cần thiết để hỗ trợ một số thẻ nhất định. Cài đặt này chỉ dành cho người dùng có kinh nghiệm, không nên thay đổi cài đặt này nếu bạn không biết các tham số này được sử dụng để làm gì.",
 'opt_sys_dsfield'       =>   "Ẩn field Nội dung ngắn giới thiệu khi viết bài viết", // English nên sửa chữ short description
@@ -493,20 +505,12 @@ $lang = array (
 // 14.0
 'opt_sys_ayd'			=>	"Cho phép sử dụng Yandex Zen",
 'opt_sys_aydd'			=>	"Bạn có thể bật hoặc tắt sử dụng Yandex Zen trong khi xuất các bài đăng trong RSS Feed",
-'opt_sys_ayt'			=>	"Cho phép sử dụng Yandex Turbo",
-'opt_sys_aytd'			=>	"Bạn có thể bật hoặc tắt sử dụng Yandex Turbo trong khi xuất các bài đăng trong RSS Feed",
 'mass_dzen'				=>	"Bật Yandex Zen",
 'mass_notdzen'			=>	"Tắt Yandex Zen",
-'mass_turbo'			=>	"Bật Yandex Turbo",
-'mass_notturbo'			=>	"Tắt Yandex Turbo",
 'mass_dzen_tl'			=>	"Hỗ trợ Yandex Zen",
 'mass_dzen_fr1'			=>	"Bạn có chắc chắn muốn bật Yandex Zen cho các mục đã chọn",
 'mass_dzen_fr2'			=>	"Bạn có chắc chắn muốn tắt Yandex Zen cho các mục đã chọn",
-'mass_turbo_tl'			=>	"Hỗ trợ Yandex Turbo",
-'mass_turbo_fr1'		=>	"Bạn có chắc chắn muốn bật Yandex Turbo cho các mục đã chọn",
-'mass_turbo_fr2'		=>	"Bạn có chắc chắn muốn tắt Yandex Turbo cho các mục đã chọn",
 'cat_dzen'				=>  "Mặc định bật Yandex Zen",
-'cat_turbo'				=>  "Mặc định bật Yandex Turbo",
 'filter_search_10'		=>	"Tag cloud",
 'set_new_name'			=>	"Thành viên bạn đang xóa có bài viết trên trang web. Bạn có thể chọn một thành viên mới làm tác giả cho những bài viết này. Nếu bạn không muốn thay đổi tác giả, hãy để trống field này.",
 'settings_panel_10'		=>	"Tự động chuyển sang chế độ ban đêm", // English error: nignt -> night

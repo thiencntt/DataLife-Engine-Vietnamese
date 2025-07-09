@@ -5,6 +5,11 @@ $lang = array (
 'language_code'		    =>  "vi",
 'direction'		        =>  "ltr",
 
+// 18.1
+'quote_find'            => "Hiển thị thông báo",
+'edit_news_alert'		=> "Bài viết này đang được chỉnh sửa bởi người dùng <b>{name}</b>",
+// 18.1
+
 // 18.0
 'feedback_banned'        => "Người dùng bị cấm khỏi trang web",
 'country_declined_1'     => "Bạn đang ở quốc gia không được phép xem bài viết này.",
@@ -726,7 +731,7 @@ $lang = array (
 'ip_block_login'	=>	"Chú ý! Bạn đã bật tính năng tự động chặn theo IP của tài khoản của bạn. Quyền truy cập vào tài khoản của bạn từ mạng con này bị từ chối.",
 'mod_list_f'		=>	"Danh sách bài viết đang chờ kiểm duyệt của bạn đang trống",
 'ip_block'         =>	"Địa chỉ IP hoặc mạng con của bạn đã bị Quản trị viên chặn.",
-'pm_alert'         =>	"<b>{user}</b> thân mến, bạn đã nhận được <b>{num}</b> tin nhắn cá nhân mới kể từ lần truy cập cuối cùng.",
+'pm_alert'         =>	"<b>{user}</b> thân mến, kể từ lần truy cập trước bạn đã nhận được <b>{num}</b> tin nhắn cá nhân mới",
 'pm_asub'          =>	"Chủ đề:",
 'pm_atitle'        =>	"Bạn có tin nhắn cá nhân",
 'pm_mtitle'        =>	"Nhấp và giữ để di chuyển cửa sổ",
