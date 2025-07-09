@@ -5,6 +5,11 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 18.1
+'quote_find'            => "Show a message",
+'edit_news_alert'		=> "This publication is already being edited by the user <b>{name}</b>",
+// 18.1
+
 // 18.0
 'feedback_banned'        => "The user has been banned from the site.",
 'country_declined_1'     => "You are located in a country where this publication is not available on the website for legal reasons.",
@@ -726,7 +731,7 @@ $lang = array (
 'ip_block_login'	=>	"Attention! You have enabled the automatic IP blocking for your account. Access to your account is prohibited from this subnet.",
 'mod_list_f'		=>	"List of your posts that are awaiting moderation is empty",
 'ip_block'         =>	"Your IP-address or subnet have been blocked by the Administrator",
-'pm_alert'         =>	"Dear <b>{user}</b>, you received <b>{num}</b> new personal messages since your last visit.",
+'pm_alert'         =>	"Dear <b>{user}</b>, since your last visit you received <b>{num}</b> new personal messag|e|es|es",
 'pm_asub'          =>	"Subject:",
 'pm_atitle'        =>	"You've got personal messages",
 'pm_mtitle'        =>	"Click and hold to move the window",
