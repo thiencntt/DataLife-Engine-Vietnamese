@@ -42,7 +42,7 @@ $lang = array (
 // 17.3
 
 // 17.2
-'ajax_edit_cat'          => "Danh mục:",
+'ajax_edit_cat'          => "Chuyên mục:",
 'group_change_1'         => "Tư cách thành viên của bạn trong nhóm <b>{oldgroup}</b> đã hết hạn. Bạn đã được chuyển sang nhóm <b>{newgroup}</b>.",
 'group_change_2'         => "Bạn đã đăng {count} bài viết và bạn đã được chuyển từ nhóm <b>{oldgroup}</b> sang nhóm mới <b>{newgroup}</b>.",
 'group_change_3'         => "Bạn đã đăng {count} bình luận và bạn đã được chuyển từ nhóm <b>{oldgroup}</b> sang nhóm mới <b>{newgroup}</b>.",
@@ -411,7 +411,7 @@ $lang = array (
 'bb_t_list1'		=>	"Chèn danh sách",
 'bb_t_list2'		=>	"Chèn danh sách được đánh số",
 's_fword'			=>	"Chính xác tất cả các từ",
-'addnews_cat_sel'	=>	"Chọn một danh mục...",
+'addnews_cat_sel'	=>	"Chọn một chuyên mục...",
 // 9.5
 
 // 9.4
@@ -508,7 +508,7 @@ $lang = array (
 'preview_full'			=>	"Nội dung chi tiết:",
 'lost_send'			=>	"Kính thưa quý khách! Mật khẩu mới được tạo theo yêu cầu của bạn. Mật khẩu này đã được gửi tới e-mail của bạn:",
 'news_err_40'		=>	"Nội dung bình luận của bạn quá ngắn và theo quan điểm của quản trị trang web, không có bất kỳ thông tin hữu ích nào.",
-'news_err_41'		=>	"Bạn không được phép xuất bản các bài viết trong phần này của trang web. Chọn một danh mục từ danh sách có sẵn.",
+'news_err_41'		=>	"Bạn không được phép xuất bản các bài viết trong phần này của trang web. Chọn một chuyên mục từ danh sách có sẵn.",
 'edit_selact'		=>	"-- Hành động --",
 'edit_seldel'		=>	"Xóa",
 'edit_rel'			=>	"Chỉnh sửa",
@@ -708,7 +708,7 @@ $lang = array (
 's_fscnum'			=>	"Số lượng bình luận",
 's_fsnnum'			=>	"Số lượt xem",
 's_fsaut'			=>	"Tên tác giả",
-'s_fscat'			=>	"Danh mục",
+'s_fscat'			=>	"Chuyên mục",
 's_fsrate'			=>	"Đánh giá bài viết",
 's_fsdesc'			=>	"Giảm dần",
 's_fsasc'			=>	"Tăng dần",
@@ -718,7 +718,7 @@ $lang = array (
 's_vjump'			=>	"Hiển thị kết quả #:",
 's_vnews'			=>	"Bài viết",
 's_vtitle'			=>	"Tiêu đề",
-'s_fcats'			=>	"Tìm kiếm theo danh mục",
+'s_fcats'			=>	"Tìm kiếm theo chuyên mục",
 's_fstart'			=>	"Bắt đầu tìm kiếm",
 's_fstop'			=>	"Dừng lại",
 's_freset'			=>	"Reset",
@@ -951,7 +951,7 @@ $lang = array (
 'news_err_24'		=>	"<li>Không có quốc gia nào có tên dài như vậy!</li>",
 'news_err_26'		=>	"Không tìm thấy người dùng có tên này.",
 'news_err_27'		=>	"Không tìm thấy bài viết nào tại địa chỉ này hoặc bạn không có quyền truy cập để xem thông tin.",
-'news_err_28'		=>	"không có quyền truy cập để xem các bài viết trong danh mục này.",
+'news_err_28'		=>	"không có quyền truy cập để xem các bài viết trong chuyên mục này.",
 'news_err_29'		=>	"Không được phép thêm bình luận cho bài viết này.",
 
 'feed_err_1'		=>	"<li>Tên đăng nhập không hợp lệ.</li>",

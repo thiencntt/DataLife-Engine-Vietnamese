@@ -22,8 +22,8 @@ $lang_logs = array (
 // 17.0
 
 // 14.0
-'admin_logs_action_120'		=>	"Bật Danh mục, ID:",
-'admin_logs_action_121'		=>	"Tắt Danh mục, ID:",
+'admin_logs_action_120'		=>	"Bật Chuyên mục, ID:",
+'admin_logs_action_121'		=>	"Tắt Chuyên mục, ID:",
 // 14.0
 
 // 13.3
@@ -104,10 +104,10 @@ $lang_logs = array (
 'admin_logs_action_8'	=>	"Xóa bỏ Banner quảng cáo, ID:",
 'admin_logs_action_9'	=>	"Thêm Bộ lọc chặn theo IP, tên đăng nhập hoặc email",
 'admin_logs_action_10'	=>	"Xóa bỏ một mục trong bộ lọc người dùng.",
-'admin_logs_action_11'	=>	"Thay đổi sắp xếp danh mục.",
-'admin_logs_action_12'	=>	"Thêm danh mục:",
-'admin_logs_action_13'	=>	"Xóa bỏ danh mục, ID:",
-'admin_logs_action_14'	=>	"Chỉnh sửa danh mục:",
+'admin_logs_action_11'	=>	"Thay đổi sắp xếp chuyên mục.",
+'admin_logs_action_12'	=>	"Thêm chuyên mục:",
+'admin_logs_action_13'	=>	"Xóa bỏ chuyên mục, ID:",
+'admin_logs_action_14'	=>	"Chỉnh sửa chuyên mục:",
 'admin_logs_action_15'	=>	"Xóa bài viết trong thuật sĩ tối ưu hóa trước đó:",
 'admin_logs_action_16'	=>	"Xóa bình luận trong thuật sĩ tối ưu hóa trước đó:",
 'admin_logs_action_17'	=>	"Xóa tin nhắn cá nhân trong thuật sĩ tối ưu hóa.",

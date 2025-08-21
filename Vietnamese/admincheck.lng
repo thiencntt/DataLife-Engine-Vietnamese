@@ -11,7 +11,7 @@ $lang = array_merge($lang, array (
 // 12.1
 
 // 11.2
-'admin_check_35'	=>	"Bạn đã kích hoạt đếm số bài viết của mỗi danh mục. Tính năng này làm tăng số lượng yêu cầu vào cơ sở dữ liệu từ hệ thống. Để tắt cài đặt này, hãy đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> và tắt tùy chọn này.",
+'admin_check_35'	=>	"Bạn đã kích hoạt đếm số bài viết của mỗi chuyên mục. Tính năng này làm tăng số lượng yêu cầu vào cơ sở dữ liệu từ hệ thống. Để tắt cài đặt này, hãy đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> và tắt tùy chọn này.",
 // 11.2
 
 // 9.7
@@ -21,7 +21,7 @@ $lang = array_merge($lang, array (
 // 9.4
 'admin_check_1'		=>	"Phần này được sử dụng để phân tích Cài đặt hệ thống và Cài đặt nhóm người dùng. Theo kết quả phân tích, bạn nhận được các đề xuất về cách tắt hoặc thay đổi các cài đặt khác nhau để giảm tải máy chủ. Trong field màu đỏ, bạn có thể tìm thấy các hướng dẫn giúp giảm tải đáng kể. Trong field màu xanh là hướng dẫn giảm tải trung bình. Trong field màu xanh lá cây là các đề xuất cho phép bạn giảm nhẹ tải máy chủ.",
 'admin_check_2'		=>	"Tất cả các cài đặt của bạn đã được tối ưu hóa cho hiệu suất tối đa.",
-'admin_check_4'		=>	"Đã bật hiển thị bài viết từ các danh mục phụ khi đọc bài viết từ danh mục chính. Cài đặt này tạo ra lựa chọn bài viết phức tạp hơn trong cơ sở dữ liệu và sử dụng các câu truy vấn phức tạp. Đi đến <b>Cấu hình chung &raquo; Bài viết</b> để tắt cài đặt này.",
+'admin_check_4'		=>	"Đã bật hiển thị bài viết từ các chuyên mục phụ khi đọc bài viết từ chuyên mục chính. Cài đặt này tạo ra lựa chọn bài viết phức tạp hơn trong cơ sở dữ liệu và sử dụng các câu truy vấn phức tạp. Đi đến <b>Cấu hình chung &raquo; Bài viết</b> để tắt cài đặt này.",
 'admin_check_5'		=>	"Đã bật cho phép người dùng đánh giá bài viết trong khi xem các bài viết ngắn. Cài đặt này cho phép người dùng có thể đánh giá bài viết mà không cần phải xem toàn bộ bài viết. Người dùng sẽ có thể đánh giá một số bài viết từ một trang và có thể tăng tải cơ sở dữ liệu bằng cách làm điều này. Đi đến <b>Cấu hình chung &raquo; Bài viết</b> để tắt cài đặt này.",
 'admin_check_6'		=>	"Đã bật bình luận các bài viết đã đăng. Khả năng này cho phép bình luận bài viết, hiển thị bình luận, thêm bình luận, nhưng cũng sử dụng các truy vấn bổ sung vào cơ sở dữ liệu, do đó làm tăng tải cơ sở dữ liệu. Đi đến <b>Cấu hình chung &raquo; Bình luận</b> để tắt cài đặt này.",
 'admin_check_7'		=>	"Đã bật tính năng nén Gzip cho các trang HTML. Tính năng này cho phép tiết kiệm lưu lượng người dùng nhưng tăng tải CPU máy chủ. Bạn nên tắt cài đặt này nếu máy chủ của bạn bị tải CPU cao. Đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> để tắt cài đặt này.",
@@ -30,7 +30,7 @@ $lang = array_merge($lang, array (
 'admin_check_10'	=>	"Đã bật tìm kiếm trực tiếp trong Cài đặt. Loại tìm kiếm này thực hiện các truy vấn thường xuyên đến cơ sở dữ liệu khi người dùng nhập văn bản vào field tìm kiếm. Nó làm tăng tải cơ sở dữ liệu đáng kể. Đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> để tắt cài đặt này.",
 'admin_check_11'	=>	"Đã bật đăng ký và ủy quyền trên trang web. Tính năng này làm tăng số lượng truy vấn đến cơ sở dữ liệu. Đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> để tắt cài đặt này.",
 'admin_check_12'	=>	"Đã tắt việc sử dụng bộ nhớ đệm trên trang web. Khi tính năng này bị tắt, hệ thống liên tục chuyển sang cơ sở dữ liệu để lấy thông tin, điều này làm tăng tải trên máy chủ. Để bật cài đặt này, hãy đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b>.",//English error: Bị tắt chứ không phải đang bật
-'admin_check_13'	=>	"Đã bật chọn nhiều danh mục cho bài viết. Tính năng này cho phép đăng một bài viết trong một số danh mục cùng một lúc. Tuy nhiên, khi hiển thị bài viết thì hệ thống sử dụng các truy vấn cơ sở dữ liệu phức tạp hơn làm tăng tải trên cơ sở dữ liệu. Đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> để tắt cài đặt này.",
+'admin_check_13'	=>	"Đã bật chọn nhiều chuyên mục cho bài viết. Tính năng này cho phép đăng một bài viết trong một số chuyên mục cùng một lúc. Tuy nhiên, khi hiển thị bài viết thì hệ thống sử dụng các truy vấn cơ sở dữ liệu phức tạp hơn làm tăng tải trên cơ sở dữ liệu. Đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> để tắt cài đặt này.",
 'admin_check_14'	=>	"Đã bật cho phép hiển thị bài viết liên quan khi xem bài viết. Tính năng này làm cho truy vấn phức tạp đến cơ sở dữ liệu để tìm kiếm dữ liệu cần thiết, do đó làm tăng tải cơ sở dữ liệu. Đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> để tắt cài đặt này.",
 'admin_check_15'	=>	"Đã bật tính năng cho phép đăng bài viết vào ngày chỉ định trong tương lai. Nó cho phép thêm trước bài viết sẽ đăng trên trang web vào thời gian đã đặt. Tuy nhiên, tùy chọn này sử dụng các thuật toán phức tạp hơn để chọn bài viết từ cơ sở dữ liệu khi hiển thị trên trang web. Nó làm tăng tải cơ sở dữ liệu. Đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> để tắt cài đặt này.",
 'admin_check_16'	=>	"Đã bật hỗ trợ Ghim bài viết trên trang web, tính năng này cho phép một số bài viết nhất định được hiển thị trên đầu trang web. Tuy nhiên, tính năng này yêu cầu sử dụng các thuật toán phức tạp hơn để hiển thị các bài viết. Đi đến <b>Cấu hình chung &raquo; Tối ưu hóa</b> để tắt cài đặt này.",
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array (
 'admin_check_29'	=>	"Bộ đếm tải xuống được bật cho các tập tin đã tải lên. Nếu tính năng này được bật, tính năng này sẽ truy cập vào cơ sở dữ liệu khi tập tin được tải xuống, do đó tăng số lượng truy vấn vào cơ sở dữ liệu. Đi đến <b>Cấu hình chung &raquo; Tập tin</b> để tắt cài đặt này.",
 'admin_check_30'	=>	"Một số giao diện được phép sử dụng trên trang web của bạn cùng một lúc và người dùng có thể thay đổi giao diện theo ý của họ. Tính năng này yêu cầu thực hiện bộ đệm dữ liệu bổ sung trên máy chủ. Đi đến <b>Cấu hình chung &raquo; Người dùng</b> để tắt cài đặt này.",
 'admin_check_31'	=>	"Đã bật gửi thông báo email cho người dùng khi họ nhận được tin nhắn cá nhân. Vô hiệu hóa tính năng này để giảm nhẹ tải máy chủ. Đi đến <b>Cấu hình chung &raquo; Người dùng</b> để tắt cài đặt này.",
-'admin_check_32'	=>	"Nhóm <b>'{name}'</b> bị cấm xem các bài viết từ các danh mục nhất định. Hệ thống phải thực hiện lựa chọn thông tin phức tạp từ cơ sở dữ liệu khi hạn chế này được bật. Đi đến <b>Trang Chính &raquo; Cấu hình Nhóm người dùng (Chọn Tên nhóm và chỉnh sửa)</b> để tắt cài đặt này.",
+'admin_check_32'	=>	"Nhóm <b>'{name}'</b> bị cấm xem các bài viết từ các chuyên mục nhất định. Hệ thống phải thực hiện lựa chọn thông tin phức tạp từ cơ sở dữ liệu khi hạn chế này được bật. Đi đến <b>Trang Chính &raquo; Cấu hình Nhóm người dùng (Chọn Tên nhóm và chỉnh sửa)</b> để tắt cài đặt này.",
 'admin_check_33'	=>	"Người dùng được phép người dùng đăng ký nhận bản tin bình luận của bài viết. Khi tính năng này được bật, người dùng đã đăng ký nhận bản tin bình luận sẽ được thông báo qua e-mail khi bình luận mới được đăng. Tuy nhiên, nếu bạn có nhiều người dùng và nhiều người đăng ký, việc gửi email có thể mất khá nhiều thời gian. Đi đến <b>Cấu hình chung &raquo; Bình luận</b> để tắt cài đặt này.",
 // 9.4
 
