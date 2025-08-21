@@ -22,7 +22,7 @@ Hello all admin from around the world, our team is from Vietnam and we run websi
 
 # DANH SÁCH CÁC CODER ĐÃ HỖ TRỢ
 Mọi sự đóng góp sẽ được ghi nhận và đăng lên đây để tỏ lòng biết ơn!
-https://github.com/thiencntt/DataLife-Engine-Vietnamese/archive/refs/tags/v18.1_vi_fix.zip
+
 # LIÊN KẾT TẢI VỀ
 
 | PHIÊN BẢN DLE | LINK TẢI ENGLISH | LINK TẢI TIẾNG VIỆT | GHI CHÚ |
