@@ -2,6 +2,20 @@
 
 $lang_logs = array (
 
+// 19.0
+'admin_logs_action_138'	    =>	"Đang xóa tập tin giao diện:",
+'admin_logs_action_139'	    =>	"Đang tạo thư mục giao diện:",
+'admin_logs_action_140'	    =>	"Đang sắp xếp các quy tắc SEO URL",
+'admin_logs_action_141'	    =>	"Đang thêm quy tắc SEO URL mới:",
+'admin_logs_action_142'	    =>	"Đang chỉnh sửa quy tắc SEO URL:",
+'admin_logs_action_143'	    =>	"Đang đặt lại quy tắc SEO URL",
+'admin_logs_action_144'	    =>	"Đang xóa quy tắc SEO URL:",
+'admin_logs_action_145'	    =>	"Đang di chuyển tập tin giao diện đến vị trí mới:",
+'admin_logs_action_146'	    =>	"Đã thêm một tab mới cho các field bổ sung:",
+'admin_logs_action_147'	    =>	"Đang chỉnh sửa tab cho các field bổ sung:",
+'admin_logs_action_148'	    =>	"Đã xóa tab cho các field bổ sung:",
+// 19.0
+
 // 17.0
 'admin_logs_action_122'		=>	"Vô hiệu hóa liên kết trong mô-đun Redirects",
 'admin_logs_action_123'		=>	"Cho phép sử dụng liên kết trong mô-đun Redirects module",

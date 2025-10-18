@@ -1,1 +1,7 @@
-{"name":"Vietnamese","icon":"icon.png"}
+{
+	"code":"vi",
+	"folder":"Vietnamese",
+	"name":"Tiếng Việt",
+	"icon":"vn.png",
+	"flag":"🇻🇳"
+}

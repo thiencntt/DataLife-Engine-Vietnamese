@@ -5,6 +5,13 @@ $lang = array (
 'language_code'		    =>  "vi",
 'direction'		        =>  "ltr",
 
+// 19.0
+'xf_copy'			    =>	"Sao chép tên thẻ vào bảng tạm",
+'up_im_copy1'			=>	"Đã sao chép vào bảng tạm",
+'pre_copy'			    =>	"Sao chép",
+'pre_copied'			=>	"Đã sao chép!",
+// 19.0
+
 // 18.1
 'quote_find'            => "Hiển thị thông báo",
 'edit_news_alert'		=> "Bài viết này đang được chỉnh sửa bởi người dùng <b>{name}</b>",
@@ -949,7 +956,7 @@ $lang = array (
 'news_err_22'		=>	"<li>Thông tin cá nhân quá dài!</li>",
 'news_err_23'		=>	"<li>Tên bạn nhập quá dài!</li>",
 'news_err_24'		=>	"<li>Không có quốc gia nào có tên dài như vậy!</li>",
-'news_err_26'		=>	"Không tìm thấy người dùng có tên này.",
+'news_err_26'		=>	"Người dùng này chưa đăng ký trên trang web",
 'news_err_27'		=>	"Không tìm thấy bài viết nào tại địa chỉ này hoặc bạn không có quyền truy cập để xem thông tin.",
 'news_err_28'		=>	"không có quyền truy cập để xem các bài viết trong chuyên mục này.",
 'news_err_29'		=>	"Không được phép thêm bình luận cho bài viết này.",
