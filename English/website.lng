@@ -1,9 +1,16 @@
-<?php
+﻿<?php
 
 $lang = array (
 
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
+
+// 19.0
+'xf_copy'			    =>	"Copy the tag name to the clipboard",
+'up_im_copy1'			=>	"Copied to the clipboard",
+'pre_copy'			    =>	"Copy",
+'pre_copied'			=>	"Copied!",
+// 19.0
 
 // 18.1
 'quote_find'            => "Show a message",
@@ -949,7 +956,7 @@ $lang = array (
 'news_err_22'		=>	"<li>Personal information is too long!</li>",
 'news_err_23'		=>	"<li>Name is too long!</li>",
 'news_err_24'		=>	"<li>Country with this name does not exist!</li>",
-'news_err_26'		=>	"This user has not been found.",
+'news_err_26'		=>	"This user is not registered on the site",
 'news_err_27'		=>	"Publications at this address of the website are not found or you do not have permissions to view the information at this address.",
 'news_err_28'		=>	"do not have the required permissions to view the articles in this section.",
 'news_err_29'		=>	"It is prohibited to add comments for this article.",

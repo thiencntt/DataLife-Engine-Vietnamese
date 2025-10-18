@@ -1,1 +1,7 @@
-{"name":"English","icon":"icon.png"}
+﻿{
+	"code":"en",
+	"folder":"English",
+	"name":"English",
+	"icon":"gb.png",
+	"flag":"🇬🇧"
+}

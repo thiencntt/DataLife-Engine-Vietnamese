@@ -1,8 +1,22 @@
-<?php
+﻿<?php
 
 $lang_logs = array (
 
-    // 17.0
+// 19.0
+'admin_logs_action_138'	    =>	"Deleting a template file:",
+'admin_logs_action_139'	    =>	"Creating a template folder:",
+'admin_logs_action_140'	    =>	"Sorting the SEO-friendly URL rules",
+'admin_logs_action_141'	    =>	"Adding a new SEO-friendly URL rule:",
+'admin_logs_action_142'	    =>	"Editing the SEO-friendly URL Rule:",
+'admin_logs_action_143'	    =>	"Reset the SEO-friendly URL rules",
+'admin_logs_action_144'	    =>	"Removing the SEO-friendly URL rule:",
+'admin_logs_action_145'	    =>	"Moving the template file to a new location:",
+'admin_logs_action_146'	    =>	"Added a new tab for additional fields:",
+'admin_logs_action_147'	    =>	"Editing a tab for additional fields:",
+'admin_logs_action_148'	    =>	"The tab for additional fields has been removed:",
+// 19.0
+
+// 17.0
 'admin_logs_action_122'		=>	"Disabling links in the Redirects module",
 'admin_logs_action_123'		=>	"Enabling links in the Redirects module",
 'admin_logs_action_124'		=>	"Disabling links in the 'Meta Tags' module",
@@ -13,7 +27,7 @@ $lang_logs = array (
 'admin_logs_action_129'		=>	"Editing the storage:",
 'admin_logs_action_130'		=>	"Disabling External Storage",
 'admin_logs_action_131'		=>	"Enabling External Storage",
-'admin_logs_action_132'		=>	"Mass delete of external storage",
+'admin_logs_action_132'		=>	"Mass deletion of external storage",
 'admin_logs_action_133'		=>	"Mass enable of external storage",
 'admin_logs_action_134'		=>	"Mass disable of external storage",
 'admin_logs_action_135'		=>	"Changing the default storage",
