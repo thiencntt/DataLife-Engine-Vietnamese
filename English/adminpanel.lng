@@ -5,6 +5,31 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 19.1
+'settings_panel_18'     =>  "Auto",
+'opt_sys_related_date'	=>	"Related news period (in days)",
+'opt_sys_related_dated'	=>	"Enter the number of days during which news items are considered related when viewing full news. If a news item was published earlier than the specified number of days ago, it will not be included when selecting related news. For example, if you enter 30, only news published within the last 30 days will be considered. If you do not want to limit the period, leave this field empty or set it to 0.",
+'opt_sys_wdpm'		    =>	"Editor for private messages:",
+'opt_sys_wdpmd'		    =>	"Select the editor that will be used by users when writing private messages",
+'group_max_acr'         =>  "Daily rating limit",
+'hint_max_acr'          =>  "Enter the maximum number of comments a user is allowed to rate per day. For example, if set to 2, the user will only be able to rate two different comments per day. The limit applies to both positive and negative ratings. To remove the limit, enter 0.",
+'hint_max_acr_1'        =>  "Enter the maximum number of publications a user is allowed to rate per day. For example, if set to 2, the user will only be able to rate two different publications per day. The limit applies to both positive and negative ratings. To remove the limit, enter 0.",
+'c_rating_1'			=>	"Allow changing the assigned rating for comments",
+'hint_gcrating_1'		=>	"You can allow or deny this group to change ratings they have previously assigned to comments. If disabled, users will not be able to change a rating after it has been set once.",
+'a_rating_1'			=>	"Allow changing the assigned rating for news",
+'hint_garating_1'       =>  "You can allow or deny this group to change ratings they have previously assigned to news. If disabled, users will not be able to change a rating after it has been set once.",
+'xfield_on'			    =>	"Additional field enabled",
+'xfield_off'			=>	"Additional field disabled",
+'btn_descr_ai'			=>	"Generate Description using AI",
+'btn_keyword_ai'		=>	"Generate Keywords using AI",
+'ai_command_16'			=>  "Based on the provided text, create an SEO description for the <meta name=\"description\"> tag. The description must be no longer than 250 characters, convey the essence of the text, and be informative and appealing. Do not add anything extra, do not use hashtags or quotation marks, return only the final string without quotes or additional text.",
+'ai_command_17'			=>  "Based on the provided text, create an SEO set of keywords for the <meta name=\"keywords\"> tag. Return the result as a string with all keywords separated by commas. The keywords must reflect the main topic of the text and be relevant and unique. No more than 20 keywords are allowed, each keyword must be at least 3 characters long. Do not add anything extra, do not use hashtags or quotation marks, return only the comma-separated keyword string.",
+'ai_error'				=>	"Error while contacting the AI service:",
+'update_run'		    =>	"Start update",
+'close_button'		    =>	"Close",
+'preview_title'		    =>	"Preview",
+// 19.1
+
 // 19.0
 'sconf_rules'           =>  "You can create an authorization application using the link: {applink}. As the <b>Redirect URI</b> parameter in the application, use the link: {link}",
 'opt_friendly'			=>	"Manage user friendly URL's",
@@ -1448,7 +1473,7 @@ $lang = array (
 'news_on'				=>	"Article is published on the website",
 'news_off'				=>	"News article is awaiting for the moderation",
 'vconf_awidht'			=>	"Audio player width:",
-'vconf_awidhtd'			=>	"Specify the width of the audio player in pixels ",
+'vconf_awidhtd'			=>	"Specify the width of the audio player. Examples of acceptable parameters: 600, 500px, 40rem, 45em, 90%",
 'hot_keys'				=>	"Use hot keys for the template search: Ctrl-F begin search, Ctrl-G resume search.",
 'tabs_gr_cap'			=>  "CAPTCHA",
 'opt_sys_qsn'			=>  "Enable Q & A System when posting a news article",
@@ -1736,9 +1761,9 @@ $lang = array (
 'opt_sys_recaptd'		=>	"Set the security code type to be used on the website. You can use the standard security code based on GD2 or use a security code of the reCAPTCHA service",
 'opt_sys_gd2'			=>	"Standard (GD2)",
 'opt_sys_recaptcha'		=>	"reCAPTCHA",
-'opt_sys_recaptpub'		=>	"reCAPTCHA, hCaptcha, Cloudflare public key:",
-'opt_sys_recaptpubd'	=>	"You can get the key here: http://www.google.com/recaptcha Note: It is highly recommended to register on this service and generate the unique pair of keys with a permission to use it only on your domain. The use of a standard pair of keys does not give a proper protection from the spam robots.",
-'opt_sys_recaptpriv'	=>	"reCAPTCHA, hCaptcha, Cloudflare private key:",
+'opt_sys_recaptpub'		=>	"reCAPTCHA, hCaptcha, Cloudflare, Yandex SmartCaptcha public key:",
+'opt_sys_recaptpubd'	=>	"You can get the key here: https://www.google.com/recaptcha/, https://www.hcaptcha.com, https://www.cloudflare.com/products/turnstile/, https://yandex.cloud/ru/docs/smartcaptcha/ Note: It is highly recommended to register on this service and generate the unique pair of keys with a permission to use it only on your domain. The use of a standard pair of keys does not give a proper protection from the spam robots.",
+'opt_sys_recaptpriv'	=>	"reCAPTCHA, hCaptcha, Cloudflare, Yandex SmartCaptcha private key:",
 'opt_sys_recapttheme'	=>	"reCAPTCHA, hCaptcha, Cloudflare design:",
 'opt_sys_recaptthemed'	=>	"You can choose one of the standard themes to be used for reCAPTCHA design.",
 'edit_cloud'			=>	"Assign Keywords for Tag Clouds",
@@ -1824,7 +1849,7 @@ $lang = array (
 'vconf_title'			=>	"General settings",
 'vconf_info'			=>	"Player’s colors are set in the HEX format. For example, the white color is 0xFFFFFF. All the fields of the player color settings are optional. You can leave the fields blank. In this case, script will use default colors.<br /><br /><b>Warning!</b> In order for the new settings to take effect, the news article or page needs to be re-saved since all the information is stored in the database in the compiled form.",
 'vconf_widht'			=>	"Video player width:",
-'vconf_widhtd'			=>	"Set the video player width in pixels ",
+'vconf_widhtd'			=>	"Set the video player width. Examples of acceptable parameters: 600, 500px, 40rem, 45em, 90%",
 'vconf_play'			=>	"Enable automatic playback:",
 'vconf_playd'			=>	"Enable automatic video playback as the page is loaded ",
 'vconf_flv_title'		=>	"Flash player settings for FLV and MP3 formats playback",
@@ -2607,7 +2632,7 @@ $lang = array (
 'hint_gdc'				=>	"Allow the user to delete own comments.",
 'hint_gaec'				=>	"Allow the user to edit any comments.",
 'hint_gadcom'			=>	"Allow the user to delete any comments.",
-'hint_gvhide'			=>	"Allow user to view a text between <b>[HIDE] [/HIDE]</b> tags.",
+'hint_gvhide'			=>	"Allow the user to view the published hidden text.",
 'hint_gapm'		 	 	=>	"Allow the user to use personal messages.",
 'hint_gafile'	 	 	=>	"Allow the user to download files attached to the news article.",
 'hint_gmpm'	 	 		=>	"The maximum number of personal messages, which user can receive and store. To remove this limitation set 0.",
@@ -2902,6 +2927,7 @@ $lang = array (
 'stat_bd'		=>	"Database size:",
 'stat_maxfile'	=>	"Maximum size of the uploaded image:",
 'stat_bild'		=>	"Size of the uploads directory:",
+
 'stat_phperror'		=>  "The PHP version on the server does not match the minimum required version. The Datalife Engine may not function correctly on this PHP version. The PHP version should be at least <b>{minversion}</b>. Your installed version {version}",
 'stat_safeskin'		=>	"<b>Attention!</b><br>Unable to load the chosen skin. Default skin is loaded automatically!<br>Check the skin's files on the server!",
 'stat_nofree'		=>	"<b>Attention!</b><br>System has detected that the server don’t have enough space. For the correct operation of the script you need to take measures to increase thr disk space. You also need to make a backup copy of the news!",
@@ -3543,4 +3569,4 @@ $langtranslit = array(
 "ð"=>"eth", "ѓ"=>"r"
 );
 
-?>
+setlocale(LC_ALL, ['en_US.UTF-8','en_US.utf8','en_US','English_United States.65001','English_United States.UTF-8','English']);

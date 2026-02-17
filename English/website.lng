@@ -5,6 +5,12 @@ $lang = array (
 'language_code'		    =>  "en",
 'direction'		        =>  "ltr",
 
+// 19.1
+'rating_error7'         => "You have reached the daily limit for submitting ratings. You will be able to rate again tomorrow.",
+'close_button'		    =>	"Close",
+'preview_title'		    =>	"Preview",
+// 19.1
+
 // 19.0
 'xf_copy'			    =>	"Copy the tag name to the clipboard",
 'up_im_copy1'			=>	"Copied to the clipboard",
@@ -373,13 +379,13 @@ $lang = array (
 // 10.1
 
 // 10.0
-'static_page_err'	=>	"Sorry, the page {page} is not available for you: its address could have changed or it has been removed. Please use the search.",
+'static_page_err'	=>	"Sorry, this page is not available. Its address could have changed or it has been removed. Please use the search.",
 'p_del'				=>	"Delete",
 'mail_complaint'	=>  "New complaint notification",
 'mail_complaint_1'	=>  "This notification has been sent from the website: {site}\n\nWe inform you that you have received a new complaint from visitors of your website.\n\nTo view the complaints and to make something on them you have to login to Control Panel of the website and go to 'List of complaints.",
 'reg_err_28'        =>  "Sorry, you cannot register on our website. It was noticed that your e-mail address was used to send spam. If you have never been involved in spam, then your IP-address was previously used by spammers. Ask your internet provider to change your IP-address, and you will be able to register on our website.",
 'reg_err_29'        =>  "Sorry, you cannot post comments. It was noticed that your e-mail address was used to send spam. If you have never been involved in spam, then your IP-address or e-mail was previously used by spammers. Ask your internet provider to change your IP-address, and you will be able to register on our website.",
-'reg_err_34'        =>  "<li> Sorry, you cannot send messages. It was noticed that your e-mail address was used to send spam. If you have never been involved in spam, then your IP-address or e-mail was previously used by spammers. Ask your internet provider to change your IP-address, and you will be able to register on our website.</li>",
+'reg_err_34'        =>  "Sorry, you cannot send messages. It was noticed that your e-mail address was used to send spam. If you have never been involved in spam, then your IP-address or e-mail was previously used by spammers. Ask your internet provider to change your IP-address, and you will be able to register on our website.",
 // 10.0
 
 // 9.8
@@ -506,7 +512,7 @@ $lang = array (
 'message_pm_3'		=>	"This moderator has specified the following reasons:",
 'fav_notfound_1'	=>	"You don't have favorites on this page. Return to the previous page.",
 'pm_err_10'			=>	"You cannot send more than {max} personal messages per day.",
-'feed_err_9'		=>	"<li>You cannot send more than {max} e-mail messages per day.</li>",
+'feed_err_9'		=>	"You cannot send more than {max} e-mail messages per day.",
 'edit_selcomb'		=>	"Combine comments",
 'login_err_2'		=>	"Warning! You have reached the maximum number of failed attempts to login to the website. Access to this account is blocked for 20 minutes. Please, try again later. If you forgot your password, you can do a password recovery on the website. Please, recover your password at the end of the blocking period..",
 // 9.0
@@ -553,7 +559,7 @@ $lang = array (
 // 8.2
 
 // 8.0
-'feed_err_8'		=>	"<li>You cannot send e-mail messages to this user.</li>",
+'feed_err_8'		=>	"You cannot send e-mail messages to this user.",
 'bb_flash'				=>	"Enter the dimensions of the flash movie (width, height) ",
 'bb_flash_url'			=>	"Enter URL of the flash movie ",
 'inset_flash_link'		=>	"insert a flash movie",
@@ -818,7 +824,7 @@ $lang = array (
 
 'reg_err_1'		=>	"<li>Both passwords must be identical!</li>",
 'reg_err_2'		=>	"<li>Password must be from 6 to 72 characters!</li>",
-'reg_err_3'		=>	"<li>Invalid length of the name. Username must be from 3 to 30 characters!</li>",
+'reg_err_3'		=>	"<li>Invalid length of the name. Username must be from 3 to 40 characters!</li>",
 'reg_err_4'		=>	"<li>You are using an invalid name!</li>",
 'reg_err_5'		=>	"<li>You are using an invalid password!</li>",
 'reg_err_6'		=>	"<li>Invalid e-mail!</li>",
@@ -961,11 +967,11 @@ $lang = array (
 'news_err_28'		=>	"do not have the required permissions to view the articles in this section.",
 'news_err_29'		=>	"It is prohibited to add comments for this article.",
 
-'feed_err_1'		=>	"<li>Invalid username.</li>",
-'feed_err_2'		=>	"<li>Invalid e-mail.</li>",
-'feed_err_3'		=>	"<li>Invalid e-mail.</li>",
-'feed_err_4'		=>	"<li>You did not enter a subject of the message.</li>",
-'feed_err_5'		=>	"<li>You did not enter a text of the message.</li>",
+'feed_err_1'		=>	"Invalid username.",
+'feed_err_2'		=>	"Invalid e-mail.",
+'feed_err_3'		=>	"Invalid e-mail.",
+'feed_err_4'		=>	"You did not enter a subject of the message.",
+'feed_err_5'		=>	"You did not enter a text of the message.",
 'feed_err_6'		=>	"Unable to send your message.",
 'feed_err_7'		=>	"This user is not found in the database, or he/she does not want to receive emails from other users",
 
@@ -1173,4 +1179,4 @@ $langtranslit = array(
 
 $relates_word = array ('e' => '[eеё]', 'r' => '[rг]', 't' => '[tт]', 'y' => '[yу]','u' => '[uи]','i' => '[i1l!]','o' => '[oо0]','p' => '[pр]','a' => '[aа]','s' => '[s5]','w' => 'w','q' => 'q','d' => 'd','f' => 'f','g' => '[gд]','h' => '[hн]','j' => 'j','k' => '[kк]','l' => '[l1i!]','z' => 'z','x' => '[xх%]','c' => '[cс]','v' => '[vuи]','b' => '[bвь]','n' => '[nпл]','m' => '[mм]','й' => '[йиu]','ц' => 'ц','у' => '[уy]','е' => '[еeё]','н' => '[нh]','г' => '[гr]','ш' => '[шwщ]','щ' => '[щwш]','з' => '[з3э]','х' => '[хx%]','ъ' => '[ъь]','ф' => 'ф','ы' => '(ы|ь[i1l!]?)','в' => '[вb]','а' => '[аa]','п' => '[пn]','р' => '[рp]','о' => '[оo0]','л' => '[лn]','д' => 'д','ж' => 'ж','э' => '[э3з]','я' => '[я]','ч' => '[ч4]','с' => '[сc]','м' => '[мm]','и' => '[иuй]','т' => '[тt]','ь' => '[ьb]','б' => '[б6]','ю' => '(ю|[!1il][oо0])','ё' => '[ёеe]','1' => '[1il!]','2' => '2','3' => '[3зэ]','4' => '[4ч]','5' => '[5s]','6' => '[6б]','7' => '7','8' => '8','9' => '9','0' => '[0оo]','_' => '_','#' => '#','%' => '[%x]','^' => '[^~]','(' => '[(]',')' => '[)]','=' => '=','.' => '[.]','-' => '-','[' => '[\[]');
 
-?>
+setlocale(LC_ALL, ['en_US.UTF-8', 'en_US.utf8', 'en_US', 'English_United States.65001', 'English_United States.UTF-8', 'English']);

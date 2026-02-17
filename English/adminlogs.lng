@@ -2,6 +2,11 @@
 
 $lang_logs = array (
 
+// 19.1
+'admin_logs_action_149'	    =>	"Additional field disabled:",
+'admin_logs_action_150'	    =>	"Additional field enabled:",
+// 19.1
+
 // 19.0
 'admin_logs_action_138'	    =>	"Deleting a template file:",
 'admin_logs_action_139'	    =>	"Creating a template folder:",
