@@ -5,6 +5,12 @@ $lang = array (
 'language_code'		    =>  "vi",
 'direction'		        =>  "ltr",
 
+// 19.1
+'rating_error7'         => "Bạn đã đạt đến giới hạn số lần đánh giá hàng ngày. Bạn sẽ có thể đánh giá lại vào ngày mai.",
+'close_button'		    =>	"Đóng",
+'preview_title'		    =>	"Xem trước",
+// 19.1
+
 // 19.0
 'xf_copy'			    =>	"Sao chép tên thẻ vào bảng tạm",
 'up_im_copy1'			=>	"Đã sao chép vào bảng tạm",
@@ -372,13 +378,13 @@ $lang = array (
 // 10.1
 
 // 10.0
-'static_page_err'	=>	"Rất tiếc, trang {page} không thể truy cập được: trang có thể đã bị thay đổi địa chỉ hoặc đã bị xóa. Vui lòng sử dụng tìm kiếm.",
+'static_page_err'	=>	"Rất tiếc, trang này không thể truy cập được. Trang có thể đã bị thay đổi địa chỉ hoặc đã bị xóa. Vui lòng sử dụng tìm kiếm.",
 'p_del'				=>	"Xóa",
 'mail_complaint'	=>  "Thông báo khiếu nại mới",
 'mail_complaint_1'	=>  "Thông báo này đã được gửi từ trang web: {site}\n\nChúng tôi thông báo cho bạn rằng bạn đã nhận được khiếu nại mới từ khách truy cập vào trang web của bạn.\n\nnĐể xem đơn khiếu nại và thực hiện bất kỳ hành động nào, bạn cần phải đăng nhập vào bảng điều khiển trang web và vào phần 'Danh sách khiếu nại'.",
 'reg_err_28'        =>  "Xin lỗi, bạn không thể đăng ký trên trang web của chúng tôi. Địa chỉ e-mail của bạn đã được sử dụng để gửi thư rác. Nếu bạn chưa bao giờ tham gia vào spam, thì địa chỉ IP hoặc địa chỉ email của bạn trước đây được sử dụng bởi những kẻ gửi thư rác. Yêu cầu nhà cung cấp internet thay đổi địa chỉ IP của bạn và bạn sẽ có thể đăng ký trên trang web của chúng tôi.",
 'reg_err_29'        =>  "Xin lỗi, bạn không thể bình luận trên trang web của chúng tôi. Địa chỉ e-mail của bạn đã được sử dụng để gửi thư rác. Nếu bạn chưa bao giờ tham gia vào spam, thì địa chỉ IP hoặc địa chỉ email của bạn trước đây được sử dụng bởi những kẻ gửi thư rác. Yêu cầu nhà cung cấp internet thay đổi địa chỉ IP của bạn và bạn sẽ có thể bình luận trên trang web của chúng tôi.",
-'reg_err_34'        =>  "<li>Xin lỗi, bạn không thể gửi tin nhắn riêng trên trang web của chúng tôi. Địa chỉ e-mail của bạn đã được sử dụng để gửi thư rác. Nếu bạn chưa bao giờ tham gia vào spam, thì địa chỉ IP hoặc địa chỉ email của bạn trước đây được sử dụng bởi những kẻ gửi thư rác. Yêu cầu nhà cung cấp internet thay đổi địa chỉ IP của bạn và bạn sẽ có thể gửi tin nhắn riêng trên trang web của chúng tôi.</li>",
+'reg_err_34'        =>  "Xin lỗi, bạn không thể gửi tin nhắn riêng trên trang web của chúng tôi. Địa chỉ e-mail của bạn đã được sử dụng để gửi thư rác. Nếu bạn chưa bao giờ tham gia vào spam, thì địa chỉ IP hoặc địa chỉ email của bạn trước đây được sử dụng bởi những kẻ gửi thư rác. Yêu cầu nhà cung cấp internet thay đổi địa chỉ IP của bạn và bạn sẽ có thể gửi tin nhắn riêng trên trang web của chúng tôi.",
 // 10.0
 
 // 9.8
@@ -505,7 +511,7 @@ $lang = array (
 'message_pm_3'		=>	"Người kiểm duyệt này đã ghi các lý do sau:",
 'fav_notfound_1'	=>	"Bạn không có mục yêu thích trên trang này. Trở về trang trước đó.",
 'pm_err_10'			=>	"Bạn không thể gửi nhiều hơn {max} tin nhắn cá nhân mỗi ngày.",
-'feed_err_9'		=>	"<li>Bạn không thể gửi nhiều hơn {max} e-mail mỗi ngày.</li>",
+'feed_err_9'		=>	"Bạn không thể gửi nhiều hơn {max} e-mail mỗi ngày.",
 'edit_selcomb'		=>	"Gộp bình luận",
 'login_err_2'		=>	"Cảnh báo! Bạn đã vượt số lần đăng nhập không thành công vào trang web. Quyền truy cập vào tài khoản này bị chặn trong {time} phút. Vui lòng thử lại sau. Nếu bạn quên mật khẩu, bạn có thể khôi phục mật khẩu trên trang web. Vui lòng khôi phục mật khẩu của bạn vào cuối thời gian chặn..",
 // 9.0
@@ -552,7 +558,7 @@ $lang = array (
 // 8.2
 
 // 8.0
-'feed_err_8'		=>	"<li>Bạn không thể gửi e-mail cho người dùng này.</li>",
+'feed_err_8'		=>	"Bạn không thể gửi e-mail cho người dùng này.",
 'bb_flash'				=>	"Nhập kích thước của phim flash (chiều rộng, chiều cao)",
 'bb_flash_url'			=>	"Nhập liên kết của phim flash",
 'inset_flash_link'		=>	"Chèn phim flash", //English error
@@ -961,11 +967,11 @@ $lang = array (
 'news_err_28'		=>	"không có quyền truy cập để xem các bài viết trong chuyên mục này.",
 'news_err_29'		=>	"Không được phép thêm bình luận cho bài viết này.",
 
-'feed_err_1'		=>	"<li>Tên đăng nhập không hợp lệ.</li>",
-'feed_err_2'		=>	"<li>Bạn chưa nhập địa chỉ email.</li>",
-'feed_err_3'		=>	"<li>Địa chỉ e-mail không hợp lệ.</li>",
-'feed_err_4'		=>	"<li>Bạn chưa nhập chủ đề của tin nhắn.</li>",
-'feed_err_5'		=>	"<li>Bạn chưa nhập nội dung của tin nhắn.</li>",
+'feed_err_1'		=>	"Tên đăng nhập không hợp lệ.",
+'feed_err_2'		=>	"Bạn chưa nhập địa chỉ email.",
+'feed_err_3'		=>	"Địa chỉ e-mail không hợp lệ.",
+'feed_err_4'		=>	"Bạn chưa nhập chủ đề của tin nhắn.",
+'feed_err_5'		=>	"Bạn chưa nhập nội dung của tin nhắn.",
 'feed_err_6'		=>	"Không thể gửi tin nhắn của bạn.",
 'feed_err_7'		=>	"Người dùng này không được tìm thấy trong cơ sở dữ liệu, hoặc người này không muốn nhận thư từ những người dùng khác",
 
@@ -1326,4 +1332,4 @@ $langtranslit = array(
 
 $relates_word = array ('e' => '[eеё]', 'r' => '[rг]', 't' => '[tт]', 'y' => '[yу]','u' => '[uи]','i' => '[i1l!]','o' => '[oо0]','p' => '[pр]','a' => '[aа]','s' => '[s5]','w' => 'w','q' => 'q','d' => 'd','f' => 'f','g' => '[gд]','h' => '[hн]','j' => 'j','k' => '[kк]','l' => '[l1i!]','z' => 'z','x' => '[xх%]','c' => '[cс]','v' => '[vuи]','b' => '[bвь]','n' => '[nпл]','m' => '[mм]','й' => '[йиu]','ц' => 'ц','у' => '[уy]','е' => '[еeё]','н' => '[нh]','г' => '[гr]','ш' => '[шwщ]','щ' => '[щwш]','з' => '[з3э]','х' => '[хx%]','ъ' => '[ъь]','ф' => 'ф','ы' => '(ы|ь[i1l!]?)','в' => '[вb]','а' => '[аa]','п' => '[пn]','р' => '[рp]','о' => '[оo0]','л' => '[лn]','д' => 'д','ж' => 'ж','э' => '[э3з]','я' => '[я]','ч' => '[ч4]','с' => '[сc]','м' => '[мm]','и' => '[иuй]','т' => '[тt]','ь' => '[ьb]','б' => '[б6]','ю' => '(ю|[!1il][oо0])','ё' => '[ёеe]','1' => '[1il!]','2' => '2','3' => '[3зэ]','4' => '[4ч]','5' => '[5s]','6' => '[6б]','7' => '7','8' => '8','9' => '9','0' => '[0оo]','_' => '_','#' => '#','%' => '[%x]','^' => '[^~]','(' => '[(]',')' => '[)]','=' => '=','.' => '[.]','-' => '-','[' => '[\[]');
 
-?>
+setlocale(LC_ALL, ['vi_VN.UTF-8','vi_VN.utf8','vi_VN','Vietnamese']);

@@ -5,6 +5,31 @@ $lang = array (
 'language_code'		    =>  "vi",
 'direction'		        =>  "ltr",
 
+// 19.1
+'settings_panel_18'     =>  "Tự động",
+'opt_sys_related_date'	=>	"Khoảng thời gian bài viết liên quan (tính bằng ngày)",
+'opt_sys_related_dated'	=>	"Nhập số ngày mà các bài viết được xem là có liên quan khi xem bài viết đầy đủ. Nếu bài viết được đăng trước số ngày chỉ định thì sẽ bị loại bỏ khỏi danh sách bài viết liên quan. Ví dụ, nếu bạn nhập 30 thì những bài viết trong vòng 30 ngày gần mới được xem xét có liên quan không. Nếu bạn không muốn giới hạn khoảng thời gian, hãy để trống trường này hoặc đặt thành 0.",
+'opt_sys_wdpm'		    =>	"Trình soạn thảo tin nhắn riêng:",
+'opt_sys_wdpmd'		    =>	"Chọn trình soạn thảo mà người dùng sẽ sử dụng khi viết tin nhắn riêng tư.",
+'group_max_acr'         =>  "Giới hạn xếp hạng hàng ngày",
+'hint_max_acr'          =>  "Nhập số lượng tối đa các bình luận mà người dùng được phép đánh giá mỗi ngày. Ví dụ, nếu đặt là 2, người dùng chỉ có thể đánh giá hai bình luận khác nhau mỗi ngày. Giới hạn này áp dụng cho cả đánh giá tích cực và tiêu cực. Để bỏ giới hạn, hãy nhập 0.",
+'hint_max_acr_1'        =>  "Nhập số lượng tối đa các bài viết mà người dùng được phép đánh giá mỗi ngày. Ví dụ, nếu đặt là 2, người dùng chỉ có thể đánh giá hai bài viết khác nhau mỗi ngày. Giới hạn này áp dụng cho cả đánh giá tích cực và tiêu cực. Để bỏ giới hạn, hãy nhập 0.",
+'c_rating_1'			=>	"Cho phép thay đổi xếp hạng đã đánh giá cho các bình luận.",
+'hint_gcrating_1'		=>	"Bạn có thể cho phép hoặc từ chối nhóm này thay đổi xếp hạng mà họ đã đánh giá cho các bình luận trước đó. Nếu bị vô hiệu hóa, người dùng sẽ không thể thay đổi xếp hạng sau khi đã được thiết lập.",
+'a_rating_1'			=>	"ho phép thay đổi xếp hạng đã đánh giá cho bài viết",
+'hint_garating_1'       =>  "Bạn có thể cho phép hoặc từ chối nhóm này thay đổi xếp hạng mà họ đã đánh giá cho bài viết trước đó. Nếu bị vô hiệu hóa, người dùng sẽ không thể thay đổi xếp hạng sau khi đã thiết lập một lần.",
+'xfield_on'			    =>	"Trường bổ sung đã được bật",
+'xfield_off'			=>	"Trường bổ sung bị vô hiệu hóa",
+'btn_descr_ai'			=>	"Tạo mô tả bằng AI",
+'btn_keyword_ai'		=>	"Tạo từ khóa bằng AI",
+'ai_command_16'			=>  "Dựa trên văn bản được cung cấp, hãy tạo mô tả SEO cho thẻ <meta name=\"description\">. Mô tả không được dài quá 250 ký tự, truyền tải được nội dung chính của văn bản, đồng thời phải cung cấp thông tin hữu ích và hấp dẫn. Không thêm bất kỳ nội dung thừa nào, không sử dụng hashtag hoặc dấu ngoặc kép, chỉ trả về chuỗi ký tự cuối cùng mà không có dấu ngoặc kép hoặc văn bản bổ sung.",
+'ai_command_17'			=>  "Dựa trên văn bản được cung cấp, hãy tạo một bộ từ khóa SEO cho thẻ <meta name=\"keywords\">. Trả về kết quả dưới dạng chuỗi các từ khóa được phân tách bằng dấu phẩy. Các từ khóa phải phản ánh chủ đề chính của văn bản, phải liên quan và độc đáo. Không được phép có quá 20 từ khóa, mỗi từ khóa phải dài ít nhất 3 ký tự. Không thêm bất kỳ nội dung thừa nào, không sử dụng hashtag hoặc dấu ngoặc kép, chỉ trả về chuỗi từ khóa được phân tách bằng dấu phẩy.",
+'ai_error'				=>	"Lỗi khi liên hệ với dịch vụ AI:",
+'update_run'		    =>	"Bắt đầu cập nhật",
+'close_button'		    =>	"Đóng",
+'preview_title'		    =>	"Xem trước",
+// 19.1
+
 // 19.0
 'sconf_rules'           =>  "Bạn có thể tạo ứng dụng ủy quyền bằng liên kết: {applink}. Với tham số <b>URI chuyển hướng</b> trong ứng dụng, hãy sử dụng liên kết: {link}",
 'opt_friendly'			=>	"Quản lý SEO URL thân thiện với người dùng",
@@ -1450,7 +1475,7 @@ $lang = array (
 'news_on'				=>	"Bài viết được công bố trên trang web",
 'news_off'				=>	"Bài viết đang chờ kiểm duyệt",
 'vconf_awidht'			=>	"Chiều rộng của audio player:",
-'vconf_awidhtd'			=>	"Chiều rộng của trình phát âm thanh tính bằng pixel",
+'vconf_awidhtd'			=>	"Chiều rộng của trình phát âm thanh. Ví dụ về các thông số được sử dụng: 600, 500px, 40rem, 45em, 90%",
 'hot_keys'				=>	"Sử dụng các phím nóng cho tìm kiếm trong giao diện: Ctrl-F bắt đầu tìm kiếm, Ctrl-G tiếp tục tìm kiếm.",
 'tabs_gr_cap'			=>  "CAPTCHA",
 'opt_sys_qsn'			=>  "Bật hệ thống Hỏi Đáp khi đăng bài viết",
@@ -1738,9 +1763,9 @@ $lang = array (
 'opt_sys_recaptd'		=>	"Đặt loại mã bảo mật sẽ được sử dụng trên trang web. Bạn có thể sử dụng mã bảo mật chuẩn dựa trên GD2 hoặc sử dụng mã bảo mật của dịch vụ reCAPTCHA.",
 'opt_sys_gd2'			=>	"Tiêu chuẩn (GD2)",
 'opt_sys_recaptcha'		=>	"reCAPTCHA",
-'opt_sys_recaptpub'		=>	"reCAPTCHA, hCaptcha, Cloudflare public key:",
-'opt_sys_recaptpubd'	=>	"Bạn có thể lấy key ở đây: http://www.google.com/recaptcha Lưu ý: Bạn nên đăng ký dịch vụ này và tạo cặp khóa duy nhất với quyền sử dụng nó chỉ trên miền của bạn. Việc sử dụng một cặp khóa có sẵn không giúp bạn tránh khỏi spam robots.",
-'opt_sys_recaptpriv'	=>	"reCAPTCHA, hCaptcha, Cloudflare private key:",
+'opt_sys_recaptpub'		=>	"reCAPTCHA, hCaptcha, Cloudflare, Yandex SmartCaptcha public key:",
+'opt_sys_recaptpubd'	=>	"Bạn có thể lấy key ở đây: https://www.google.com/recaptcha/, https://www.hcaptcha.com, https://www.cloudflare.com/products/turnstile/, https://yandex.cloud/ru/docs/smartcaptcha/ Lưu ý: Bạn nên đăng ký dịch vụ này và tạo cặp khóa duy nhất với quyền sử dụng nó chỉ trên miền của bạn. Việc sử dụng một cặp khóa có sẵn không giúp bạn tránh khỏi spam robots.",
+'opt_sys_recaptpriv'	=>	"reCAPTCHA, hCaptcha, Cloudflare, Yandex SmartCaptcha private key:",
 'opt_sys_recapttheme'	=>	"reCAPTCHA, hCaptcha, Cloudflare design:",
 'opt_sys_recaptthemed'	=>	"Bạn có thể chọn một trong những chủ đề tiêu chuẩn sẽ được sử dụng cho thiết kế reCAPTCHA.",
 'edit_cloud'			=>	"Gán từ khóa cho các Tag Clouds",
@@ -1826,7 +1851,7 @@ $lang = array (
 'vconf_title'			=>	"Cài đặt chung",
 'vconf_info'			=>	"Màu sắc được đặt ở định dạng HEX. Ví dụ: màu trắng là 0xFFFFFF. Tất cả các field của cài đặt màu trình phát là tùy chọn. Bạn có thể để trống các field. Trong trường hợp này, hệ thống sẽ sử dụng màu mặc định.<br /><br /><b>Cảnh báo!</b> Để các cài đặt mới có hiệu lực, bài viết hoặc trang tin tức cần được lưu lại vì tất cả thông tin được lưu trữ trong cơ sở dữ liệu ở dạng biên dịch.",
 'vconf_widht'			=>	"Chiều rộng của video player:",
-'vconf_widhtd'			=>	"Đặt chiều rộng trình phát video bằng pixel",
+'vconf_widhtd'			=>	"Chiều rộng của trình phát video. Ví dụ về các thông số được sử dụng: 600, 500px, 40rem, 45em, 90%",
 'vconf_play'			=>	"Bật chơi tự động:",
 'vconf_playd'			=>	"Bật chơi video tự động khi trang được tải",
 'vconf_flv_title'		=>	"Cài đặt trình phát flash để phát lại định dạng FLV và MP3",
@@ -2610,7 +2635,7 @@ $lang = array (
 'hint_gdc'				=>	"Cho phép thành viên xóa bình luận của riêng mình.",
 'hint_gaec'				=>	"Cho phép thành viên chỉnh sửa bất kỳ bình luận nào.",
 'hint_gadcom'			=>	"Cho phép thành viên xóa bất kỳ bình luận nào.",  //English error:delete any comments
-'hint_gvhide'			=>	"Cho phép thành viên xem văn bản giữa thẻ <b>[HIDE] [/HIDE]</b>.",
+'hint_gvhide'			=>	"Cho phép thành viên xem văn bản ẩn trong bài viết.",
 'hint_gapm'		 	 	=>	"Cho phép thành viên sử dụng tin nhắn cá nhân.",
 'hint_gafile'	 	 	=>	"Cho phép thành viên tải xuống các tập tin đính kèm với bài viết.",
 'hint_gmpm'	 	 		=>	"Số lượng tin nhắn cá nhân tối đa mà thành viên có thể nhận và lưu trữ. Để xóa các giới hạn, hãy đặt 0.",
@@ -3703,4 +3728,4 @@ $langtranslit = array(
 "ð"=>"eth", "ѓ"=>"r"
 );
 
-?>
+setlocale(LC_ALL, ['vi_VN.UTF-8','vi_VN.utf8','vi_VN','Vietnamese']);

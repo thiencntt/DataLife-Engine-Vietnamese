@@ -2,6 +2,11 @@
 
 $lang_logs = array (
 
+// 19.1
+'admin_logs_action_149'	    =>	"Trường bổ sung bị vô hiệu hóa:",
+'admin_logs_action_150'	    =>	"Trường bổ sung đã được bật:",
+// 19.1
+
 // 19.0
 'admin_logs_action_138'	    =>	"Đang xóa tập tin giao diện:",
 'admin_logs_action_139'	    =>	"Đang tạo thư mục giao diện:",
